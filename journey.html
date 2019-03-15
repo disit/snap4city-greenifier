@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+<!--
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+-->
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fas fa-bars"></i></a>
+				<h1>Journey</h1>
+			</div>
+
+			<div role="main" class="ui-content" data-inset="false">
+
+<!--
+				<ol>
+					<li>Catch any bus (use the <a href="index.html">live map</a> to find them).</li>
+					<li>Start recording your journey.</li>
+					<li>Stop recording at the end of your journey.</li>
+				</ol>
+			-->
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		-->
+				
+				<script>
+var available_options = [];
+var list_items = [];
+var item_label = "";
+var this_text = "";
+
+function set_autocomplete() {
+	$.getJSON("dev-resources/poi-entertainment.json", function (data) {
+	   $.each(data.Services.features, function (key, val) {
+			 	 item_label = val.properties.name + " (" + val.id + ")";
+	       available_options.push({
+	         label: item_label,
+	         value: val.properties.name,
+					 // Latitude and longitude are in the oppostie order.
+					 coords: val.geometry.coordinates.reverse().join(',')
+				 });
+			 list_items.push('<li class="autocomplete-list-item">' + item_label + '</li>');
+			 $('#autocomplete-list').append('<li class="autocomplete-list-item ui-screen-hidden ui-li-static ui-body-inherit">' + item_label + '</li>');
+			 });
+			 $(".autocomplete-list-item").click(function() {
+        this_text = $(this).text();
+		 		$("#autocomplete-input").val(this_text);
+		 		$(".autocomplete-list-item").hide();
+				$.each(available_options, function (key, val) {
+					if (val.label == this_text) {
+						$('#coordinates').val(val.coords);
+				 		$('#placename').val(val.value);						
+					}
+				});
+		 	});		
+	});
+	$("#destination-autocomplete").autocomplete({
+		source: available_options,
+		select: function (event, ui) {
+      // Set autocomplete element to display the label
+      this.value = ui.item.label;
+      // Store value in hidden field
+      $('#coordinates').val(ui.item.coords);
+			$('#placename').val(ui.item.value);
+      // Prevent default behaviour
+      return false;
+   },
+	 position: {  collision: "flip"  }
+	});
+	$("#button-start-journey").click(function() {
+  	window.location = "map-antwerp.html?to=" + $('#coordinates').val() + '&place=' + encodeURIComponent($('#placename').val()) + "&from=" + $('#location').val() + "&follow=" + $('#follow').val();
+	});
+}
+
+</script>
+
+<p>Go to:</p>
+<form class="ui-filterable">
+    <input id="autocomplete-input" data-type="search" placeholder="Choose destination...">
+</form>
+<ul id="autocomplete-list" data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#autocomplete-input">
+</ul>
+<input type="text" id="coordinates" placeholder="Coordinates..." style="display: none;">
+<input type="text" id="placename" placeholder="Place name..." style="display: none;">
+<input type="text" id="location" placeholder="Location..." value="51.207,4.392" style="display: none;">
+<input type="text" id="follow" placeholder="Follow..." value="no" style="display: none;">
+<div style="text-align: center;">
+<a id="button-start-journey" href="#" class="ui-btn ui-btn-raised clr-primary" style="background-color: #2b8702; margin-left: 10%; margin-right: 10%; ">Start Journey</a>
+</div>
+
+				<p>You'll get points based on: length of your bus ride, today's pollution level, GPS matching between your device and a bus in service.</p>
+				<p>Please allow up to 45 seconds for the app to compute and display the best route.</p>
+
+				<p id="location-text"><i class='fas fa-spinner'></i> Checking if you are in Antwerp...</p>
+
+				<script>
+				var territory_bounds = [[51.42, 4.12], [51.09, 4.73]];
+				var lat_bounds = [51.09, 51.42];
+				var lon_bounds = [4.12, 4.73];
+
+			 var x = document.getElementById("location-text");
+			 function getLocation() {
+			   if (navigator.geolocation) {
+			     navigator.geolocation.getCurrentPosition(showPosition);
+			   } else {
+			     x.innerHTML = "Geolocation is not supported by this browser.";
+			   }
+			 }
+
+			 function showPosition(position) {
+				 if ((lat_bounds[0] <= position.coords.latitude) && (position.coords.latitude <= lat_bounds[1]) &&
+				 		 (lon_bounds[0] <= position.coords.longitude) && (position.coords.longitude <= lon_bounds[1])) {
+							 $("#location").val(position.coords.longitude+','+position.coords.longitude);
+							 $("#location-text").html("<i class='fas fa-check'></i>You are in Antwerp!<br> Coordinates: " + position.coords.longitude+','+position.coords.longitude);
+							 $("#follow").val("yes");
+						 } else {
+							 $("#location").val("51.207,4.392");
+						 	 $("#location-text").html("<i class='fas fa-warning'></i> You are not in Antwerp! Demo coordinates will be used.");
+						 }
+			 }
+			 
+			 getLocation();
+			 </script>
+
+			</div>
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+<script>
+set_autocomplete();
+</script>
+
+	</body>
+</html>

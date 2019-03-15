@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+					#map { height: 100%; width: 100vw; }
+				</style>
+				<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+
+		    <style type="text/css">
+				  .bus {
+						background: orange;
+						color: #333;
+						width: 16px !important;
+						font-size: 10px;
+						font-family: sans-serif;
+						text-align: center;
+						padding: 2px 3px 3px 3px;
+						border-radius: 4px;
+						opacity: 60%;
+				}
+				.route-change {
+					background: #6554C0; /* #BF2600; red */
+					color: white;
+					width: 32px !important;
+					height: 18px !important;
+					font-size: 12px;
+					font-family: sans-serif;
+					text-align: center;
+					padding: 2px 3px 3px 3px;
+					border-radius: 4px;
+					opacity: 80%;
+					overflow: hidden;
+				}
+				.route-change-tovehicle {
+					background: #6554C0;
+					color: white;
+				}
+				.route-change-towalk {
+					background: #006644;
+					color: white;
+				}
+				.route-change-end {
+					background: #333;
+					color: white;
+				}
+				.bus-marker-style-1 { background: #FFAB00;	}
+				.bus-marker-style-2 { background: #FFC400;	}
+				.bus-marker-style-3 {	background: #36B37E; color: white;	}
+				.bus-marker-style-4 {	background: #57D9A3;	}
+				.bus-marker-style-5 {	background: #00B8D9;	}
+				.bus-marker-style-6 {	background: #00C7E5;	}
+				.bus-marker-style-7 {	background: #4C9AFF; color: white; }
+				.bus-marker-style-8 {	background: #2684FF; color: white; }
+				.bus-marker-style-9 {	background: #8777D9;	}
+				.bus-marker-style-10 { background: orange;	}
+				.bus-marker-style-11 {	background: #998DD9; color: white; }
+			
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fas fa-bars"></i></a>
+				<h1>Live Bus Finder</h1>
+			</div>
+
+			<div role="main" class="ui-content" style='padding: 0px;' data-inset="false">
+				<div id="map" style="width: 100%; height: 690px;"></div>
+				<script>
+
+					var mymap = L.map('map').setView([51.275, 4.368], 13);
+					var data_url = "https://servicemap.disit.org/WebAppGrafo/api/v1/tpl/bus-position/?format=json";
+					var bus_marker_style_count = 10;
+					var current_style = 0;
+					
+					L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYXAyMDAzIiwiYSI6ImNqc2o2c2J6YjByeDg0OW9sYmEzMWtwODgifQ.lvJkkjuWq5pDwlh00nglXA', {
+						maxZoom: 18,
+						attribution: 'Data: <a href="https://snap4city.org/">Snap4city</a>, <a href="https://data.delijn.be">De Lijn</a>',
+						id: 'mapbox.streets'
+					}).addTo(mymap);
+
+				  var markers = {};
+					var items = [];
+					var bus_line_colors = {};
+
+user_location_marker = "";
+user_out_of_bounds_warned = false;
+
+function onLocationFound(e) {
+		var territory_bounds = L.latLngBounds(L.latLng(51.42, 4.12), L.latLng(51.09, 4.73));
+		var default_location = L.latLng(51.2144, 4.4203);
+		var radius = e.accuracy / 2;
+		
+		if (user_location_marker) {
+			mymap.removeLayer(user_location_marker);
+		}
+		
+		var avatar_icon = L.icon({iconUrl: 'https://antwerp.greenifiers.net/assets/marker-rubens.png'});
+
+		var myIcon = L.divIcon({className: 'bus bus-marker-style-5', html: '<i class="fas fa-bus"></i>'});
+
+		if (!territory_bounds.contains(e.latlng)) {
+			if (!user_out_of_bounds_warned) {
+				alert("You couldn't be located in Antwerp. A default location will be used for demo purposes.");
+				user_out_of_bounds_warned = true;
+			}
+			user_location_marker = L.marker(default_location, {zIndexOffset: 1001, icon: avatar_icon});
+			//e.latlng = default_location;
+		} else {
+			user_location_marker = L.marker(e.latlng, {zIndexOffset: 1001, icon: avatar_icon});
+		}
+		user_location_marker.addTo(mymap);
+	}
+
+	function onLocationError(e) {
+		alert(e.message);
+	}
+
+	mymap.on('locationfound', onLocationFound);
+	mymap.on('locationerror', onLocationError);
+	
+	// Set view only at first run.
+	//mymap.locate({setView: true, maxZoom: 16, maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+	//mymap.locate({watch: true, maxZoom: 16, maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+	//mymap.center = [44.0, 18.33] ; //user_location_marker.getLatLng();
+	//mymap.locate({setView: true, maxZoom: 16, watch: true, maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+	//mymap.locate({setView: true, maxZoom: 16, watch: true, maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+	// mymap.locate({setView: true, maxZoom: 16, maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+	mymap.locate({maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+
+
+					function setHeader(xhr) {
+					        xhr.setRequestHeader('Ocp-Apim-Subscription-Key', '4863e46241d2471d964a38f8d76ed457');
+					      }
+
+real_time_panel_control = "";
+
+function add_realtime_panel(bus_stop_code) {
+								L.Control.Watermark = L.Control.extend({
+								    onAdd: function(mymap) {
+								        var box = L.DomUtil.create('iframe');
+
+								        box.src = 'https://www.delijn.be/realtime/' + bus_stop_code + '/3';
+												box.style.width = '120%';
+												box.style.border = '0px';
+												
+												real_time_panel_control = box;
+								        return box;
+								    },
+
+								    onRemove: function(mymap) {
+								    }
+								});
+
+								L.control.watermark = function(opts) {
+								    return new L.Control.Watermark(opts);
+								}
+
+								L.control.watermark({ position: 'topright' }).addTo(mymap);
+}
+
+
+stop_ids = [];
+var map_bounds = new L.LatLngBounds();
+
+function update_map_delijn() {
+	$.ajax({
+		url: 'https://api.delijn.be/DLKernOpenData/v1/beta/gemeenten/1985/haltes',
+		type: 'GET',
+		dataType: 'json',
+		beforeSend: setHeader,
+		success: function(data) {
+	 		$.each( data.haltes, function( key, val ) {
+				entity = val.entiteitnummer;
+				lon = val.geoCoordinaat.longitude;
+				lat = val.geoCoordinaat.latitude;
+				stop_latlng = L.latLng(lat, lon);
+				stop_id = val.haltenummer;
+				stop_name = val.omschrijving;
+				id = "v" + stop_id;
+				if (stop_latlng.distanceTo(circle_center) <= circle_radius) {
+					stop_ids.push(entity+'/'+stop_id);
+					var myIcon = L.divIcon({className: 'bus '+id, html: '<i class="fas fa-bus"></i>'});
+					markers[id] = L.marker([lat, lon], {icon: myIcon}).bindTooltip('<strong>'+stop_id+'</strong><br> '+ stop_name);
+					markers[id].on('mouseover click', function(this_stop_id) {
+						//this_stop_id = stop_id;
+						return function() {
+							if (real_time_panel_control) {
+								L.DomUtil.remove(real_time_panel_control);
+							}
+							add_realtime_panel(this_stop_id);
+						};
+					}(stop_id));
+					markers[id].addTo(mymap);
+					map_bounds.extend(markers[id].getLatLng());
+				}
+		  });
+		mymap.fitBounds(map_bounds);
+		}
+	});
+}
+			
+var antwerp_shape = "4.2445 51.3763,4.3310 51.3780,4.3433 51.3583,4.3753 51.3561,4.3610 51.3340,4.3818 51.3094,4.4299 51.2699,4.4614 51.2441,4.5013 51.2230,4.4820 51.1804,4.4532 51.1748,4.4285 51.1638,4.4127 51.1550,4.3777 51.1455,4.3324 51.1574,4.3241 51.1830,4.3488 51.2006,4.3461 51.2166,4.3598 51.2415,4.3063 51.2578,4.3021 51.2999,4.2815 51.3171,4.2445 51.3763";
+var snap4city_data_url = "https://www.snap4city.org/ServiceMap/api/v1/?selection=wkt:POLYGON((" + antwerp_shape + "))&categories=BusStop&maxResults=0&format=json";
+var snap4city_template_url = "https://www.snap4city.org/ServiceMap/api/v1/?serviceUri=__ENDPOINT__&format=json"
+
+function update_map_snap4city() {
+	$.ajax({
+		url: snap4city_data_url,
+		type: 'GET',
+		dataType: 'json',
+		// beforeSend: setHeader,
+		success: function(data) {
+	 		$.each(data.BusStops.features, function(key, val) {
+				//entity = val.entiteitnummer;
+				lon = val.geometry.coordinates[0];
+				lat = val.geometry.coordinates[1];
+				stop_latlng = L.latLng(lat, lon);
+				stop_service_uri = snap4city_template_url.replace('__ENDPOINT__', val.properties.serviceUri);
+				// Remove redundant initial "Antwerpen".
+				stop_name = val.properties.name.replace(/^Antwerpen /, "");
+				var id = val.properties.serviceUri;
+				var stop_id;
+				// Exclude metro stops. Their name ends in "Metro".
+				if (stop_latlng.distanceTo(circle_center) <= circle_radius && !stop_name.endsWith("Metro")) {
+					$.getJSON(stop_service_uri, function(data) {
+						stop_id = data.BusStop.features[0].properties.code;
+						id = "sv" + stop_id;
+						markers[val.properties.serviceUri].setTooltipContent(markers[val.properties.serviceUri].getTooltip().getContent().replace('__STOPID__', stop_id));
+						markers[val.properties.serviceUri].on('mouseover click', function(this_stop_id) {
+							return function() {
+								if (real_time_panel_control) {
+									L.DomUtil.remove(real_time_panel_control);
+								}
+								add_realtime_panel(this_stop_id);
+							};
+						}(stop_id));
+					});
+				var myIcon = L.divIcon({className: 'bus '+id, html: '<i class="fas fa-bus"></i>'});
+				markers[id] = L.marker([lat+snap4city_offset_lat, lon+snap4city_offset_lon], {icon: myIcon}).bindTooltip('<strong>__STOPID__</strong><br> '+ stop_name);
+				markers[id].addTo(mymap);
+					map_bounds.extend(markers[id].getLatLng());
+				}
+		  });
+		mymap.fitBounds(map_bounds);
+		}
+	});
+}
+			
+
+
+var		circle_center = L.latLng(51.2144, 4.4203);
+	if (user_location_marker) {
+	circle_center = L.latLng(user_location_marker.getLatLng());
+}
+					var circle_radius = 500; // meters
+					
+					var circle = L.circle(circle_center, {
+    //color: 'red',
+    //fillColor: '#f03',
+    fillOpacity: 0.10,
+    radius: circle_radius
+}).addTo(mymap);
+
+// Set to 0.0001 when displaying both sets.
+var snap4city_offset_lat = 0.0001;
+var snap4city_offset_lon = 0.0001;
+// update_map_delijn();
+update_map_snap4city();
+
+				</script>
+
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

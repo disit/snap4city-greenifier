@@ -1,0 +1,381 @@
+{
+"Services":{
+"fullCount": 25,
+"type": "FeatureCollection",
+"features": [
+{
+"geometry": {"type": "Point","coordinates":[4.3409,51.1703]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:40HB23",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A40HB23",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 1
+},
+{
+"geometry": {"type": "Point","coordinates":[4.385223865509033,51.2361946105957]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 40AL01 - Linkeroever",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BELAL01",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 2
+},
+{
+"geometry": {"type": "Point","coordinates":[4.341004848480225,51.1702995300293]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 40HB23 - Hoboken",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BELHB23",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 3
+},
+{
+"geometry": {"type": "Point","coordinates":[4.362260818481445,51.32765960693359]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 40R833 - Stabroek",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BELR833",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 4
+},
+{
+"geometry": {"type": "Point","coordinates":[4.424398899078369,51.26099014282227]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42M802 - Antwerpen",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETM802",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 5
+},
+{
+"geometry": {"type": "Point","coordinates":[4.431820869445801,51.20966339111328]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R801 - Borgerhout",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR801",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 6
+},
+{
+"geometry": {"type": "Point","coordinates":[4.431792259216309,51.20951843261719]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R802 - Borgerhout",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR802",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 7
+},
+{
+"geometry": {"type": "Point","coordinates":[4.428454399108887,51.22863006591797]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R803 - Antwerpen (Park Spoor Noord)",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR803",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 8
+},
+{
+"geometry": {"type": "Point","coordinates":[4.441946983337402,51.20630264282227]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R804 - Antwerpen (Ring)",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR804",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 9
+},
+{
+"geometry": {"type": "Point","coordinates":[4.42155933380127,51.20822906494141]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R805 - Antwerpen (Belgiëlei)",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR805",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 10
+},
+{
+"geometry": {"type": "Point","coordinates":[4.417948722839355,51.17713165283203]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R817 - Antwerpen (Groenenborgerlaan)",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR817",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 11
+},
+{
+"geometry": {"type": "Point","coordinates":[4.350554466247559,51.21225738525391]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R818 - Antwerpen (Burchtse Weel)",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR818",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 12
+},
+{
+"geometry": {"type": "Point","coordinates":[4.341279983520508,51.26428985595703]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R822 - Antwerpen",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR822",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 13
+},
+{
+"geometry": {"type": "Point","coordinates":[4.339709758758545,51.34879684448242]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R831 - Berendrecht",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR831",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 14
+},
+{
+"geometry": {"type": "Point","coordinates":[4.385359764099121,51.25580596923828]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R891 - Antwerpen",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR891",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 15
+},
+{
+"geometry": {"type": "Point","coordinates":[4.385770797729492,51.28137969970703]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R893 - Antwerpen",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR893",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 16
+},
+{
+"geometry": {"type": "Point","coordinates":[4.342104434967041,51.25010681152344]},
+"type": "Feature",
+"properties": {
+"name": "Air Quality Monitoring Station 42R897 - Antwerpen",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/antwerp_air_quality_BETR897",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 17
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4318,51.2097]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R801",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R801",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 18
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4216,51.2082]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R805",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R805",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 19
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4419,51.2063]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R804",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R804",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 20
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4317,51.2094]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R802",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R802",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 21
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4283,51.2287]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R803",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R803",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 22
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4244,51.261]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42M802",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42M802",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 23
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4179,51.1772]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:42R817",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A42R817",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 24
+},
+{
+"geometry": {"type": "Point","coordinates":[4.3811,51.2363]},
+"type": "Feature",
+"properties": {
+"name": "AirQualityObserved:VMM:40AL01",
+"tipo": "Air_quality_monitoring_station",
+"typeLabel": "Air quality monitoring station",
+"serviceType": "Environment_Air_quality_monitoring_station",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/iot/Antwerp/Antwerp/AirQualityObserved%25253AVMM%25253A40AL01",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 25
+}]}
+}

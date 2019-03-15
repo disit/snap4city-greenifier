@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+					#map { height: 100%; width: 100vw; }
+				</style>
+				<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+
+		    <style type="text/css">
+				  .bus {
+						background: orange;
+						color: #333;
+						width: 25px;
+						font-size: 10px;
+						font-family: sans-serif;
+						text-align: center;
+						padding: 2px 3px 3px 3px;
+						border-radius: 4px;
+						opacity: 80%;
+				}
+				.bus-marker-style-1 { background: #FFAB00;	}
+				.bus-marker-style-2 { background: #FFC400;	}
+				.bus-marker-style-3 {	background: #36B37E; color: white;	}
+				.bus-marker-style-4 {	background: #57D9A3;	}
+				.bus-marker-style-5 {	background: #00B8D9;	}
+				.bus-marker-style-6 {	background: #00C7E5;	}
+				.bus-marker-style-7 {	background: #4C9AFF; color: white; }
+				.bus-marker-style-8 {	background: #2684FF; color: white; }
+				.bus-marker-style-9 {	background: #8777D9;	}
+				.bus-marker-style-10 { background: orange;	}
+				.bus-marker-style-11 {	background: #998DD9; color: white; }
+			
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fas fa-bars"></i></a>
+				<h1>Live Bus Finder</h1>
+			</div>
+
+			<div role="main" class="ui-content" style='padding: 0px;' data-inset="false">
+				<div id="map" style="width: 100%; height: 690px;"></div>
+				<script>
+
+					var mymap = L.map('map').setView([43.776, 11.248], 13);
+					var data_url = "https://servicemap.disit.org/WebAppGrafo/api/v1/tpl/bus-position/?format=json";
+					var bus_marker_style_count = 10;
+					var current_style = 0;
+					
+					L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYXAyMDAzIiwiYSI6ImNqc2o2c2J6YjByeDg0OW9sYmEzMWtwODgifQ.lvJkkjuWq5pDwlh00nglXA', {
+						maxZoom: 18,
+						attribution: 'Data: <a href="http://snap4city.org/">Snap4city</a>',
+						id: 'mapbox.streets'
+					}).addTo(mymap);
+
+				  var markers = {};
+					var items = [];
+					var bus_line_colors = {};
+
+				  function update_map() {
+						$.getJSON(data_url, function(data) {
+						  $.each( data.features, function( key, val ) {
+								lon = val.geometry.coordinates[0];
+								lat = val.geometry.coordinates[1];
+								bus_line = val.properties.line;
+								vehicle = val.properties.vehicleNum;
+								direction = val.properties.direction;
+								id = "v" + vehicle;
+								minutes_ago = val.properties.detectionTime;
+								
+								if (markers[id]) {
+									mymap.removeLayer(markers[id]);
+				//					L.marker([markers[id]["lat"], markers[id]["lon"]]).setLatLng([lat, lon]).update();
+								}
+								bus_line_key = "L" + bus_line
+								if (bus_line_colors[bus_line_key]) {
+									style_to_use = bus_line_colors[bus_line_key]
+								} else {
+									current_style = (current_style + 1) % bus_marker_style_count + 1
+									bus_line_colors[bus_line_key] = current_style
+									style_to_use = current_style
+								}
+								var myIcon = L.divIcon({className: 'bus bus-line-'+bus_line.toLowerCase()+' bus-marker-style-'+style_to_use, html: bus_line});
+								markers[id] = L.marker([lat, lon], {icon: myIcon}).bindTooltip('<strong>'+bus_line+'</strong> '+ direction + '<br><em><small>Vehicle: ' + id + ' &mdash; ' + minutes_ago + ' minutes ago</small></em>');
+								markers[id].addTo(mymap);					
+								
+				//				markers[id] = {
+				//					lon: lon,
+				//					lat: lat,
+				//					bus_line: bus_line,
+				//					vehicle: vehicle
+				//				}
+
+						    items.push( "<li id='" + key + "'>" + bus_line + "</li>" );
+						  });
+				//			$( "<ul/>", {
+				//		    "class": "my-new-list",
+				//		    html: items.join( "" )
+				//		  }).appendTo( "body" );
+						});
+				}
+
+				  update_map();
+					setInterval(update_map, 10000);
+					 
+
+				</script>
+
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

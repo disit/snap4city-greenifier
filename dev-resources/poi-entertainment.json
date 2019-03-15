@@ -1,0 +1,2736 @@
+{
+"Services":{
+"fullCount": 182,
+"type": "FeatureCollection",
+"features": [
+{
+"geometry": {"type": "Point","coordinates":[4.429081916809082,51.22115325927734]},
+"type": "Feature",
+"properties": {
+"name": "FILMHUIS KLAPPEI",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_0e535ccb8f9d04265fdf5b777329378b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 1
+},
+{
+"geometry": {"type": "Point","coordinates":[4.437894344329834,51.25052261352539]},
+"type": "Feature",
+"properties": {
+"name": "CULTUURCENTRUM MERKSEM",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_1c747107e13d9d7f9b68ee4009a6656c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 2
+},
+{
+"geometry": {"type": "Point","coordinates":[4.41747522354126,51.21835708618164]},
+"type": "Feature",
+"properties": {
+"name": "UGC",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_20d52cc7da4cf602367d5f8602aed24e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 3
+},
+{
+"geometry": {"type": "Point","coordinates":[4.442589282989502,51.21974945068359]},
+"type": "Feature",
+"properties": {
+"name": "RATAPLAN",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_355029be1b1dca5a549031559bdbb6e4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 4
+},
+{
+"geometry": {"type": "Point","coordinates":[4.440011024475098,51.21331787109375]},
+"type": "Feature",
+"properties": {
+"name": "DE ROMA",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_3cd563ede39b84bc6e3e82997e77ff2f",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 5
+},
+{
+"geometry": {"type": "Point","coordinates":[4.421961784362793,51.21856689453125]},
+"type": "Feature",
+"properties": {
+"name": "CINÉ ROYALE",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_4a3f48a0c8a9a75f44de6255ddc19a9f",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 6
+},
+{
+"geometry": {"type": "Point","coordinates":[4.450930595397949,51.22717666625977]},
+"type": "Feature",
+"properties": {
+"name": "CULTUURCENTRUM DEURNE\/ RIX",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_5c76e3a0bb5800837a067c8d22d2becd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 7
+},
+{
+"geometry": {"type": "Point","coordinates":[4.397993087768555,51.22155380249023]},
+"type": "Feature",
+"properties": {
+"name": "CARTOON'S",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_7e607d0a07f1452a49c8724ac9f709cc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 8
+},
+{
+"geometry": {"type": "Point","coordinates":[4.387496948242188,51.20906448364258]},
+"type": "Feature",
+"properties": {
+"name": "CINÉMA ZUID",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_b9e9e31dc4a86c07ae24c75959b39fd9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 9
+},
+{
+"geometry": {"type": "Point","coordinates":[4.416356563568115,51.24590301513672]},
+"type": "Feature",
+"properties": {
+"name": "METROPOLIS",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_c87b3d86e978576d722875b3f4d33d0f",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 10
+},
+{
+"geometry": {"type": "Point","coordinates":[4.393433094024658,51.17124557495117]},
+"type": "Feature",
+"properties": {
+"name": "CULTUURCENTRUM WILRIJK (DE KERN)",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_d16d9d6943de3b3ef122af0285b4f96e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 11
+},
+{
+"geometry": {"type": "Point","coordinates":[4.403884887695312,51.193115234375]},
+"type": "Feature",
+"properties": {
+"name": "DE SINGEL",
+"tipo": "Cinema",
+"typeLabel": "Cinema",
+"serviceType": "Entertainment_Cinema",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Cinema_bioscoop_newbioscoopoverzicht_ec243bc5c9432872d128b7306d8e787c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 12
+},
+{
+"geometry": {"type": "Point","coordinates":[4.326237678527832,51.34287643432617]},
+"type": "Feature",
+"properties": {
+"name": "VAN COUWERVENSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_001191eb4b53d81adbb3a93dc63fc241",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 13
+},
+{
+"geometry": {"type": "Point","coordinates":[4.387126445770264,51.18999481201172]},
+"type": "Feature",
+"properties": {
+"name": "CAMILLE HUYSMANSLAAN \/ BOOMSESTEENWEG",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_0e1aefda0d8dfbd43df7ea08c0080ba9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 14
+},
+{
+"geometry": {"type": "Point","coordinates":[4.444219589233398,51.21503829956055]},
+"type": "Feature",
+"properties": {
+"name": "TURNHOUSEBAAN\/GRAVINSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_0ea36c03464a8b4978afd60904e3af27",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 15
+},
+{
+"geometry": {"type": "Point","coordinates":[4.46959400177002,51.19709777832031]},
+"type": "Feature",
+"properties": {
+"name": "DRAKENHOF",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_109df1421beb1f87307cf4f0f66ebf7d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 16
+},
+{
+"geometry": {"type": "Point","coordinates":[4.45960807800293,51.20454788208008]},
+"type": "Feature",
+"properties": {
+"name": "DORDRECHTLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_10fa08aedfa0d82ec6cbf50af79e4608",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 17
+},
+{
+"geometry": {"type": "Point","coordinates":[4.426636219024658,51.19498825073242]},
+"type": "Feature",
+"properties": {
+"name": "VILLEGASPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_16edd20eff28c6a982683cd3c2c721d6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 18
+},
+{
+"geometry": {"type": "Point","coordinates":[4.438501358032227,51.20101547241211]},
+"type": "Feature",
+"properties": {
+"name": "RODEKRUISLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_19df8d7fc4df5298049cf4931b762d55",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 19
+},
+{
+"geometry": {"type": "Point","coordinates":[4.396106243133545,51.17086029052734]},
+"type": "Feature",
+"properties": {
+"name": "SINT-CAMILLUSSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_23e43e4351e8220212b453f46e15068e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 20
+},
+{
+"geometry": {"type": "Point","coordinates":[4.468537330627441,51.23023223876953]},
+"type": "Feature",
+"properties": {
+"name": "GALLIFORT\/ TOV BISSCHOPPENHOF",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_254ada92504b7bb9322383e93dfb5a0a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 21
+},
+{
+"geometry": {"type": "Point","coordinates":[4.391314506530762,51.15511703491211]},
+"type": "Feature",
+"properties": {
+"name": "WANNINKHOVELAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_2eeb0cebccf59dca3f21499d42584fbc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 22
+},
+{
+"geometry": {"type": "Point","coordinates":[4.437373161315918,51.26058578491211]},
+"type": "Feature",
+"properties": {
+"name": "LAARSEBAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_3358414a167b13ba5f0a717b8ff53db6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 23
+},
+{
+"geometry": {"type": "Point","coordinates":[4.422861576080322,51.1811637878418]},
+"type": "Feature",
+"properties": {
+"name": "PRINSES JOSPHINE CHARLOTTELAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_4aa657cf42282ee7f6aa2b6f4e4124f7",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 24
+},
+{
+"geometry": {"type": "Point","coordinates":[4.388356685638428,51.1700325012207]},
+"type": "Feature",
+"properties": {
+"name": "KLEINESTEENWEG",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_4ad676de350584c06f2134652ceed6dd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 25
+},
+{
+"geometry": {"type": "Point","coordinates":[4.412623405456543,51.20092010498047]},
+"type": "Feature",
+"properties": {
+"name": "KONING ALBERTPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_4edeb79ef16871315eec3d0abf933d54",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 26
+},
+{
+"geometry": {"type": "Point","coordinates":[4.368221282958984,51.17621994018555]},
+"type": "Feature",
+"properties": {
+"name": "COOPERATIELAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_58089dbc7a8068c47d0f5f957678d1d9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 27
+},
+{
+"geometry": {"type": "Point","coordinates":[4.426652908325195,51.18465423583984]},
+"type": "Feature",
+"properties": {
+"name": "STRIJDHOFLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_5b4fa694430289e4bf191e4b37599b4c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 28
+},
+{
+"geometry": {"type": "Point","coordinates":[4.394992351531982,51.1963996887207]},
+"type": "Feature",
+"properties": {
+"name": "DESGUINLEI",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_5cd4638f7da100ebab8f915afc086e3e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 29
+},
+{
+"geometry": {"type": "Point","coordinates":[4.381698131561279,51.18323135375977]},
+"type": "Feature",
+"properties": {
+"name": "VIIDE-OLYMPIADELAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_60151707438178c473472f97246900dd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 30
+},
+{
+"geometry": {"type": "Point","coordinates":[4.330406188964844,51.34640502929688]},
+"type": "Feature",
+"properties": {
+"name": "KRUISBOS\/G. DAMAESSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_63760adac115f9ba067ad66ee415e5da",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 31
+},
+{
+"geometry": {"type": "Point","coordinates":[4.444364070892334,51.20573425292969]},
+"type": "Feature",
+"properties": {
+"name": "LUISBEKELAAR",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_648e636e2f3ef604ec879da42d58465b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 32
+},
+{
+"geometry": {"type": "Point","coordinates":[4.312199592590332,51.3459358215332]},
+"type": "Feature",
+"properties": {
+"name": "PRELATENSTRAAT\/DORPSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_68fdd705edd28a5398174ce0fa7b1c34",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 33
+},
+{
+"geometry": {"type": "Point","coordinates":[4.402496337890625,51.17192459106445]},
+"type": "Feature",
+"properties": {
+"name": "DRUIVENSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6a31bfc3211ef247709ddb5cdcca3fc8",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 34
+},
+{
+"geometry": {"type": "Point","coordinates":[4.439374446868896,51.21029281616211]},
+"type": "Feature",
+"properties": {
+"name": "LUITENANT NAEYAERTPLEIN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6bae4fd3b3f250784ed707e206d3a82e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 35
+},
+{
+"geometry": {"type": "Point","coordinates":[4.450332641601562,51.22400665283203]},
+"type": "Feature",
+"properties": {
+"name": "TEN EECKHOVELEI",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6dd0a03cdf4f937a51b429912e11ceb6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 36
+},
+{
+"geometry": {"type": "Point","coordinates":[4.432777404785156,51.22719192504883]},
+"type": "Feature",
+"properties": {
+"name": "MELOENSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6e84930e072d8cc4767672381fc5ed72",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 37
+},
+{
+"geometry": {"type": "Point","coordinates":[4.442743301391602,51.20389556884766]},
+"type": "Feature",
+"properties": {
+"name": "POTVLIETLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6ebb6a8d13ab7ef9868484f88752eecc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 38
+},
+{
+"geometry": {"type": "Point","coordinates":[4.303059101104736,51.3557243347168]},
+"type": "Feature",
+"properties": {
+"name": "ZANDVLIETSE DORPSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_6f5d92308e39fb0a258435c812dcf73c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 39
+},
+{
+"geometry": {"type": "Point","coordinates":[4.415203094482422,51.26961517333984]},
+"type": "Feature",
+"properties": {
+"name": "PATER STRACKESTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_70627f6e059e8340c3a73c1d3e43ae0c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 40
+},
+{
+"geometry": {"type": "Point","coordinates":[4.327526569366455,51.34506988525391]},
+"type": "Feature",
+"properties": {
+"name": "HAGELBERG",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_73767ddde3559df38b0c3838651c8678",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 41
+},
+{
+"geometry": {"type": "Point","coordinates":[4.421317577362061,51.17466354370117]},
+"type": "Feature",
+"properties": {
+"name": "GEMZENSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_738840677fedbfd7f245dbd7ba0d69da",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 42
+},
+{
+"geometry": {"type": "Point","coordinates":[4.363295555114746,51.18729400634766]},
+"type": "Feature",
+"properties": {
+"name": "LAGEWEG\/ZUIDWEG",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_77f924a80310aa76c7fcc78c253afd8e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 43
+},
+{
+"geometry": {"type": "Point","coordinates":[4.440432071685791,51.21665191650391]},
+"type": "Feature",
+"properties": {
+"name": "KRUGERPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_7c87b11a9d7d2a8fcb40de998ebaa140",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 44
+},
+{
+"geometry": {"type": "Point","coordinates":[4.386733531951904,51.18201446533203]},
+"type": "Feature",
+"properties": {
+"name": "HOF VAN TICHELEN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_8028eb96237910bd2051d74c0f708810",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 45
+},
+{
+"geometry": {"type": "Point","coordinates":[4.389827251434326,51.19181823730469]},
+"type": "Feature",
+"properties": {
+"name": "DE NELISPLEIN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_88a4f0f770171f183e8ca92f470e3c53",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 46
+},
+{
+"geometry": {"type": "Point","coordinates":[4.382139682769775,51.22082138061523]},
+"type": "Feature",
+"properties": {
+"name": "WATERHOENLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_893391e2a14cb5eed9fbd0bd4e760a6c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 47
+},
+{
+"geometry": {"type": "Point","coordinates":[4.429278373718262,51.17340469360352]},
+"type": "Feature",
+"properties": {
+"name": "FRANS VAN DUNLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_8a1bb8a4c80a49f7f53f5b70799cc10d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 48
+},
+{
+"geometry": {"type": "Point","coordinates":[4.458239555358887,51.19423294067383]},
+"type": "Feature",
+"properties": {
+"name": "BOEKENBERGLEI",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_8cd5c0c14e7fe2a6b47186c27198e291",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 49
+},
+{
+"geometry": {"type": "Point","coordinates":[4.43354606628418,51.19421005249023]},
+"type": "Feature",
+"properties": {
+"name": "KAREL COGGESTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_93c9c3c5002c1550fdc6371806616cc0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 50
+},
+{
+"geometry": {"type": "Point","coordinates":[4.382225036621094,51.16378021240234]},
+"type": "Feature",
+"properties": {
+"name": "MOERELEI",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_950e28e4f8d7e42d4114cc7e682c4b99",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 51
+},
+{
+"geometry": {"type": "Point","coordinates":[4.385438919067383,51.2276611328125]},
+"type": "Feature",
+"properties": {
+"name": "REINAARTLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_9b17c944571fdfe24e05a99f1408ec13",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 52
+},
+{
+"geometry": {"type": "Point","coordinates":[4.418019771575928,51.23069000244141]},
+"type": "Feature",
+"properties": {
+"name": "SPOORNOORD (WEST)",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_9b5ecfc67f1aa5160ada35d911eb8faf",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 53
+},
+{
+"geometry": {"type": "Point","coordinates":[4.408561706542969,51.28126525878906]},
+"type": "Feature",
+"properties": {
+"name": "TWEEKRONENSTRAAT\/ EKERSEVELDSLAGSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_9c5fe25999fa63d30cebe6a6ca7cc0d7",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 54
+},
+{
+"geometry": {"type": "Point","coordinates":[4.433516025543213,51.24536895751953]},
+"type": "Feature",
+"properties": {
+"name": "WIJGAARDBERG",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_9cbcbe39e264f4fa5116e90d8ff10b0b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 55
+},
+{
+"geometry": {"type": "Point","coordinates":[4.353252410888672,51.16416549682617]},
+"type": "Feature",
+"properties": {
+"name": "VERENIGDE NATIESLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_a7a0e8a5a112d3f54694849f8154b5c0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 56
+},
+{
+"geometry": {"type": "Point","coordinates":[4.457406520843506,51.21521377563477]},
+"type": "Feature",
+"properties": {
+"name": "WEERSTANDLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_ae934eb42399a6db4d07490ca8660ee4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 57
+},
+{
+"geometry": {"type": "Point","coordinates":[4.428893089294434,51.25030899047852]},
+"type": "Feature",
+"properties": {
+"name": "HENDRIK VAN BOUTERSEMSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b0a951ab226950a79946872c141dd8f6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 58
+},
+{
+"geometry": {"type": "Point","coordinates":[4.43443775177002,51.23970794677734]},
+"type": "Feature",
+"properties": {
+"name": "TAXANDRIASTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b31f57ac5c31f51209ac627e3fe274ed",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 59
+},
+{
+"geometry": {"type": "Point","coordinates":[4.363272666931152,51.17646026611328]},
+"type": "Feature",
+"properties": {
+"name": "AARTSELAARSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b4408197eee5d9d8a926bd057bcefe90",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 60
+},
+{
+"geometry": {"type": "Point","coordinates":[4.430883407592773,51.22890472412109]},
+"type": "Feature",
+"properties": {
+"name": "SPOORNOORD (OOST)",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b5837bdecbe8d7ad3449d3b567674828",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 61
+},
+{
+"geometry": {"type": "Point","coordinates":[4.428022384643555,51.25339889526367]},
+"type": "Feature",
+"properties": {
+"name": "GANZEMATE\/DISTELHOEK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b5da98a6812b79845b48df88b40e685e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 62
+},
+{
+"geometry": {"type": "Point","coordinates":[4.434589385986328,51.2402458190918]},
+"type": "Feature",
+"properties": {
+"name": "CAMPINIASTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_b78a2d468da20c5d6483c010df38da5e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 63
+},
+{
+"geometry": {"type": "Point","coordinates":[4.401456356048584,51.18845748901367]},
+"type": "Feature",
+"properties": {
+"name": "VOGELZANGLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_bb92b4c569e17623cc295326d3c50d38",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 64
+},
+{
+"geometry": {"type": "Point","coordinates":[4.429022312164307,51.2264289855957]},
+"type": "Feature",
+"properties": {
+"name": "STUIVENBERGPLEIN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_c0fc51467d8243ad123d657468e47512",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 65
+},
+{
+"geometry": {"type": "Point","coordinates":[4.372292518615723,51.19146728515625]},
+"type": "Feature",
+"properties": {
+"name": "LODEWIJK DE RAETSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_d29bfa08ea205668da8996855468cdfd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 66
+},
+{
+"geometry": {"type": "Point","coordinates":[4.383049011230469,51.17576217651367]},
+"type": "Feature",
+"properties": {
+"name": "OUDE HOFSTRAAT\/KOOLHOFSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_d5a8c148b82046094648e2091f66c002",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 67
+},
+{
+"geometry": {"type": "Point","coordinates":[4.441623687744141,51.23831939697266]},
+"type": "Feature",
+"properties": {
+"name": "HEIRMANSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_d76c47ee169e8e97de380ae38ea6003c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 68
+},
+{
+"geometry": {"type": "Point","coordinates":[4.438551902770996,51.18473052978516]},
+"type": "Feature",
+"properties": {
+"name": "HERMAN VOSSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_d89cec5f289943ca6c994543727de68f",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 69
+},
+{
+"geometry": {"type": "Point","coordinates":[4.394357204437256,51.15788650512695]},
+"type": "Feature",
+"properties": {
+"name": "NEERLANDPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_dc37a1576187a8270b1a6dd12a1a1c2e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 70
+},
+{
+"geometry": {"type": "Point","coordinates":[4.441799640655518,51.24727249145508]},
+"type": "Feature",
+"properties": {
+"name": "RUNCVOORTPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_def940edeb832071d9b254b953fc398d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 71
+},
+{
+"geometry": {"type": "Point","coordinates":[4.420750141143799,51.25416946411133]},
+"type": "Feature",
+"properties": {
+"name": "COLUMBIASTRAAT (TUSSEN DE LANGBLOKKEN)",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_e728593182a1ae87633c4b4488504a7e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 72
+},
+{
+"geometry": {"type": "Point","coordinates":[4.387630939483643,51.20791244506836]},
+"type": "Feature",
+"properties": {
+"name": "VLAAMSEKAAI\/WAALSEKAAI",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_e83ad456b0bdb4893d6381e9dc8978b9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 73
+},
+{
+"geometry": {"type": "Point","coordinates":[4.44298267364502,51.18825149536133]},
+"type": "Feature",
+"properties": {
+"name": "HET PRIEEL",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_ed8cc5e7c9f85127083f2fbe67422a3b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 74
+},
+{
+"geometry": {"type": "Point","coordinates":[4.44846248626709,51.22061157226562]},
+"type": "Feature",
+"properties": {
+"name": "HOF TER LO",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_eddbfda6dc16f7008f4b65f522e3e22a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 75
+},
+{
+"geometry": {"type": "Point","coordinates":[4.392158985137939,51.17520141601562]},
+"type": "Feature",
+"properties": {
+"name": "OVERWINNINGSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_f08ee8d038f5c8f8162ca2fbb03a4db1",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 76
+},
+{
+"geometry": {"type": "Point","coordinates":[4.343359470367432,51.17633819580078]},
+"type": "Feature",
+"properties": {
+"name": "LUMBEECKSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_f0add3d8983c4476edd0c0faaf4421e7",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 77
+},
+{
+"geometry": {"type": "Point","coordinates":[4.428365707397461,51.23974227905273]},
+"type": "Feature",
+"properties": {
+"name": "WINTERLING",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_f156eabdf63a1390392ef9c771c336c4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 78
+},
+{
+"geometry": {"type": "Point","coordinates":[4.407876491546631,51.27123260498047]},
+"type": "Feature",
+"properties": {
+"name": "THOMAS GRESHAMSTRAAT",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_f3f7fe6d388f0dfb52a4f24251c1a0de",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 79
+},
+{
+"geometry": {"type": "Point","coordinates":[4.373944282531738,51.18955993652344]},
+"type": "Feature",
+"properties": {
+"name": "ALFONS DE COCKSTRAAT (PLEIN)",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_f94b69a535e6b020c2230a4f46a34923",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 80
+},
+{
+"geometry": {"type": "Point","coordinates":[4.402915477752686,51.28256225585938]},
+"type": "Feature",
+"properties": {
+"name": "MUISBROEK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_fb97e9c356dea5bbc99fbaa24b7a1f11",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 81
+},
+{
+"geometry": {"type": "Point","coordinates":[4.399167537689209,51.18523788452148]},
+"type": "Feature",
+"properties": {
+"name": "EGLANTIERLAAN",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_febb32eb46ef89bf1224e9da84677bd4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 82
+},
+{
+"geometry": {"type": "Point","coordinates":[4.386967658996582,51.19178009033203]},
+"type": "Feature",
+"properties": {
+"name": "KIELPARK",
+"tipo": "Dog_area",
+"typeLabel": "Dog area",
+"serviceType": "Entertainment_Dog_area",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_dog_running_zone_hondenloopzone_newhondenloopzone_ffe4a902e6ccc7b05bb67d509f5419d1",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 83
+},
+{
+"geometry": {"type": "Point","coordinates":[4.429961681365967,51.20693969726562]},
+"type": "Feature",
+"properties": {
+"name": "NAJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_03a271ec1ad982a84e1c05235e3d4b9b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 84
+},
+{
+"geometry": {"type": "Point","coordinates":[4.447185516357422,51.24642562866211]},
+"type": "Feature",
+"properties": {
+"name": "GROTE FOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_0728c50c57fba2bea2c88a1999bdc0af",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 85
+},
+{
+"geometry": {"type": "Point","coordinates":[4.350876331329346,51.17493057250977]},
+"type": "Feature",
+"properties": {
+"name": "SEPTEMBERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_164335390216d3845d09b5c682a41734",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 86
+},
+{
+"geometry": {"type": "Point","coordinates":[4.461204528808594,51.22915267944336]},
+"type": "Feature",
+"properties": {
+"name": "NAJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_17f86ba34a327ba82715d0044fdf1eee",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 87
+},
+{
+"geometry": {"type": "Point","coordinates":[4.457783222198486,51.20627212524414]},
+"type": "Feature",
+"properties": {
+"name": "PAASFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_251fbfea1d8dac65622510939113308d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 88
+},
+{
+"geometry": {"type": "Point","coordinates":[4.350876331329346,51.17493057250977]},
+"type": "Feature",
+"properties": {
+"name": "MEIFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_262bdc26c7b213f0d30365afcf7206f0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 89
+},
+{
+"geometry": {"type": "Point","coordinates":[4.464090824127197,51.22346878051758]},
+"type": "Feature",
+"properties": {
+"name": "JAARMARKTFOOR OV",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_2b0c5917694c855423e4f4eb47e6ac81",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 90
+},
+{
+"geometry": {"type": "Point","coordinates":[4.445254325866699,51.22366333007812]},
+"type": "Feature",
+"properties": {
+"name": "SINKSENFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_2cf215eab44938309df609fb1fa8ba18",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 91
+},
+{
+"geometry": {"type": "Point","coordinates":[4.39697265625,51.22154998779297]},
+"type": "Feature",
+"properties": {
+"name": "AUGUSTUSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_339a18862702e8f969f47ab5246bacfc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 92
+},
+{
+"geometry": {"type": "Point","coordinates":[4.430010318756104,51.20691680908203]},
+"type": "Feature",
+"properties": {
+"name": "VOORJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_3b6e2998ad9e109c489401970af26a25",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 93
+},
+{
+"geometry": {"type": "Point","coordinates":[4.394344329833984,51.17011642456055]},
+"type": "Feature",
+"properties": {
+"name": "ZOMERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_41c51f1447b3844a85763741f6f10bd0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 94
+},
+{
+"geometry": {"type": "Point","coordinates":[4.435367584228516,51.21472549438477]},
+"type": "Feature",
+"properties": {
+"name": "REUZENSTOETFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_49a4b2b27a4d97722bbea55be76d56a8",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 95
+},
+{
+"geometry": {"type": "Point","coordinates":[4.39697265625,51.22154998779297]},
+"type": "Feature",
+"properties": {
+"name": "JULIFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_4f3986100e33a77c763bdd89b1a29590",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 96
+},
+{
+"geometry": {"type": "Point","coordinates":[4.464662075042725,51.22406005859375]},
+"type": "Feature",
+"properties": {
+"name": "BRADERIJFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_52580fd5e343a8b0d33d0d9b85248c7a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 97
+},
+{
+"geometry": {"type": "Point","coordinates":[4.39697265625,51.22154998779297]},
+"type": "Feature",
+"properties": {
+"name": "WINTERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_634b4e0b83083436f790c1acdd5cea89",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 98
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419181823730469,51.27823257446289]},
+"type": "Feature",
+"properties": {
+"name": "CARNAVALFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_73abc56554652e411b6bd95ffa51835e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 99
+},
+{
+"geometry": {"type": "Point","coordinates":[4.447089195251465,51.25561904907227]},
+"type": "Feature",
+"properties": {
+"name": "TUINWIJKFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_7542f714df56ea72ee0a94fffad9503b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 100
+},
+{
+"geometry": {"type": "Point","coordinates":[4.38698673248291,51.22164916992188]},
+"type": "Feature",
+"properties": {
+"name": "ZOMERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_77ebda8914f83e33fa9da4ea49b321b0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 101
+},
+{
+"geometry": {"type": "Point","coordinates":[4.417674541473389,51.22536468505859]},
+"type": "Feature",
+"properties": {
+"name": "VOORJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_88c0b2b2b23c109f61869fe888e7cbd7",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 102
+},
+{
+"geometry": {"type": "Point","coordinates":[4.45018482208252,51.20071411132812]},
+"type": "Feature",
+"properties": {
+"name": "GITSCHOTELWIJKFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_98493c7aed86a894e59bd888ee25784e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 103
+},
+{
+"geometry": {"type": "Point","coordinates":[4.482855796813965,51.22078323364258]},
+"type": "Feature",
+"properties": {
+"name": "MEIFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_a2341f72b443d6f891081c8879e3ed65",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 104
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419181823730469,51.27823257446289]},
+"type": "Feature",
+"properties": {
+"name": "SEPTEMBERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_a417afa26d347837a2f97a2396ac4490",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 105
+},
+{
+"geometry": {"type": "Point","coordinates":[4.465530395507812,51.20785140991211]},
+"type": "Feature",
+"properties": {
+"name": "BRADERIJFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_ab883016daf54768f1161de6cf5ef58c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 106
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419181823730469,51.27823257446289]},
+"type": "Feature",
+"properties": {
+"name": "JAARMARKTFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_ace8638e82ca375d763250dab0ee12c4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 107
+},
+{
+"geometry": {"type": "Point","coordinates":[4.308670043945312,51.36003112792969]},
+"type": "Feature",
+"properties": {
+"name": "ZOMERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_c41544b8c5252dabd3060ad871823c44",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 108
+},
+{
+"geometry": {"type": "Point","coordinates":[4.447185516357422,51.24642562866211]},
+"type": "Feature",
+"properties": {
+"name": "KLEINE FOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_c9c09fc9b77c48c95cdf0342695e97f2",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 109
+},
+{
+"geometry": {"type": "Point","coordinates":[4.315630435943604,51.34373092651367]},
+"type": "Feature",
+"properties": {
+"name": "VOORJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_d0f1e818b7d078b3a2425852ce4a7edb",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 110
+},
+{
+"geometry": {"type": "Point","coordinates":[4.417888641357422,51.22526550292969]},
+"type": "Feature",
+"properties": {
+"name": "NAJAARSFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_dadd6db88a6fb086e246e3991414f9f5",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 111
+},
+{
+"geometry": {"type": "Point","coordinates":[4.461204528808594,51.22915267944336]},
+"type": "Feature",
+"properties": {
+"name": "MEIFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_dcc333fc6767684cdec65f0f25a06d01",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 112
+},
+{
+"geometry": {"type": "Point","coordinates":[4.444248199462891,51.19493865966797]},
+"type": "Feature",
+"properties": {
+"name": "CARNAVALFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_e190bd8373ad3c0e81bf6d8c631ac9f9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 113
+},
+{
+"geometry": {"type": "Point","coordinates":[4.394344329833984,51.17011642456055]},
+"type": "Feature",
+"properties": {
+"name": "LENTEFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_e80b02d66ed79f980c080ead680368fd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 114
+},
+{
+"geometry": {"type": "Point","coordinates":[4.44395637512207,51.19479370117188]},
+"type": "Feature",
+"properties": {
+"name": "ZOMERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_eb4f0870aa1c018ef69fb9da1d707625",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 115
+},
+{
+"geometry": {"type": "Point","coordinates":[4.315594673156738,51.34370040893555]},
+"type": "Feature",
+"properties": {
+"name": "ZOMERFOOR",
+"tipo": "Amusement_and_theme_parks",
+"typeLabel": "Amusement and theme parks",
+"serviceType": "Entertainment_Amusement_and_theme_parks",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Amusement_park_Foor_newfooroverzicht_ec63c36946cfa09771b704147c446e87",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 116
+},
+{
+"geometry": {"type": "Point","coordinates":[4.445029735565186,51.21381759643555]},
+"type": "Feature",
+"properties": {
+"name": "RICHARDSON",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_013c8886dc047c3e46c2ad0b10c5a332",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 117
+},
+{
+"geometry": {"type": "Point","coordinates":[4.408028125762939,51.17421340942383]},
+"type": "Feature",
+"properties": {
+"name": "B. WELL",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_0608a6328eeca7b5dd000e9c7f1683ac",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 118
+},
+{
+"geometry": {"type": "Point","coordinates":[4.410536289215088,51.19635009765625]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_064aa2fc8e00502da6a182e85f2e3e44",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 119
+},
+{
+"geometry": {"type": "Point","coordinates":[4.479428291320801,51.20397567749023]},
+"type": "Feature",
+"properties": {
+"name": "NEW LIMITS",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_099fca804af28350a0b908ae9a63d284",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 120
+},
+{
+"geometry": {"type": "Point","coordinates":[4.457466125488281,51.23225021362305]},
+"type": "Feature",
+"properties": {
+"name": "INRALIGNE",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_0c5056e91591c3a4139622b8267da910",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 121
+},
+{
+"geometry": {"type": "Point","coordinates":[4.438333034515381,51.24098968505859]},
+"type": "Feature",
+"properties": {
+"name": "KIDANI",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_11882cd2b06e515b732e2e3eeb362c4f",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 122
+},
+{
+"geometry": {"type": "Point","coordinates":[4.437950611114502,51.22879791259766]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_162418f1c6583ec8ece8821f95c2d77c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 123
+},
+{
+"geometry": {"type": "Point","coordinates":[4.447678089141846,51.24681854248047]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_1c5c43b7d997b6097cf3157597f5e5b2",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 124
+},
+{
+"geometry": {"type": "Point","coordinates":[4.445547103881836,51.19457244873047]},
+"type": "Feature",
+"properties": {
+"name": "MUSCLE WORLD",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_1c764c91a2c4063e3f96e99ab8c1e6a9",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 125
+},
+{
+"geometry": {"type": "Point","coordinates":[4.482771396636963,51.21734619140625]},
+"type": "Feature",
+"properties": {
+"name": "YSBAAN RUGGEVELD",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_20ac6002cbd6f91ea0b465e526098808",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 126
+},
+{
+"geometry": {"type": "Point","coordinates":[4.393335342407227,51.21335983276367]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_20b9096757977260508d37ffd33d6980",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 127
+},
+{
+"geometry": {"type": "Point","coordinates":[4.409031867980957,51.22761917114258]},
+"type": "Feature",
+"properties": {
+"name": "WELL BEING",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_2296a22d72072d4d0780d34c7143a940",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 128
+},
+{
+"geometry": {"type": "Point","coordinates":[4.318348407745361,51.35888290405273]},
+"type": "Feature",
+"properties": {
+"name": "TOPOFIT",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_29af30af06e6fc26842085bacef3fad3",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 129
+},
+{
+"geometry": {"type": "Point","coordinates":[4.409382343292236,51.20666885375977]},
+"type": "Feature",
+"properties": {
+"name": "FITNESS FIRST",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_2ef5d3fdedec5e76e54fb5da3ea80241",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 130
+},
+{
+"geometry": {"type": "Point","coordinates":[4.39084529876709,51.20074081420898]},
+"type": "Feature",
+"properties": {
+"name": "DOWN TOWN",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_2fd4d9fc73e2fc5c0206ff2da2e009ca",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 131
+},
+{
+"geometry": {"type": "Point","coordinates":[4.437695026397705,51.24121475219727]},
+"type": "Feature",
+"properties": {
+"name": "KIDANI",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_384df72f16018f092529d10d1e54e3c7",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 132
+},
+{
+"geometry": {"type": "Point","coordinates":[4.399232387542725,51.21860885620117]},
+"type": "Feature",
+"properties": {
+"name": "KEGELHUIS",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_3d86eab784303044d398e84ac1092725",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 133
+},
+{
+"geometry": {"type": "Point","coordinates":[4.429983615875244,51.21028900146484]},
+"type": "Feature",
+"properties": {
+"name": "CENTER COURT",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_3e88ae647dbfccc746379834f1e9a7b8",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 134
+},
+{
+"geometry": {"type": "Point","coordinates":[4.453168392181396,51.24069976806641]},
+"type": "Feature",
+"properties": {
+"name": "AMERICAN HEALTH",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_3ee51031d388b73d05d2d70ca38eb932",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 135
+},
+{
+"geometry": {"type": "Point","coordinates":[4.410078048706055,51.23140335083008]},
+"type": "Feature",
+"properties": {
+"name": "FLEXIFITNESS",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_4aff49f76a6c9508658abcf0f7f7f9e0",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 136
+},
+{
+"geometry": {"type": "Point","coordinates":[4.403837203979492,51.21608734130859]},
+"type": "Feature",
+"properties": {
+"name": "PASSAGE FITNESS FIRST",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_4e97665fe03edb2c421e31fd71f11fa2",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 137
+},
+{
+"geometry": {"type": "Point","coordinates":[4.385928153991699,51.21921920776367]},
+"type": "Feature",
+"properties": {
+"name": "BODY BALANCE",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_52ec024c242acc7fb2039b93fd987e91",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 138
+},
+{
+"geometry": {"type": "Point","coordinates":[4.418927669525146,51.25904083251953]},
+"type": "Feature",
+"properties": {
+"name": "INDOOR RACING",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_621bdc4bc4096e6b1cf705ac0d6ebc36",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 139
+},
+{
+"geometry": {"type": "Point","coordinates":[4.371620655059814,51.18645858764648]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_679508e4846e69b71c675d9aeef8b766",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 140
+},
+{
+"geometry": {"type": "Point","coordinates":[4.422547340393066,51.2246208190918]},
+"type": "Feature",
+"properties": {
+"name": "LOCAL FITNESS",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_762a78671b2c69c0c726258a352ebb23",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 141
+},
+{
+"geometry": {"type": "Point","coordinates":[4.390627384185791,51.17261505126953]},
+"type": "Feature",
+"properties": {
+"name": "DAEHAN",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_78e8be604eaf5b70c0ad838206fb3536",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 142
+},
+{
+"geometry": {"type": "Point","coordinates":[4.370446681976318,51.18365097045898]},
+"type": "Feature",
+"properties": {
+"name": "PASSAGE FITNESS FIRST",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_879602727b055532c535a2a39cf019f4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 143
+},
+{
+"geometry": {"type": "Point","coordinates":[4.402777671813965,51.2187385559082]},
+"type": "Feature",
+"properties": {
+"name": "RESET",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_8f7889680117aa9e5530f8e8b46ea7f5",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 144
+},
+{
+"geometry": {"type": "Point","coordinates":[4.478533267974854,51.22270202636719]},
+"type": "Feature",
+"properties": {
+"name": "GO FIT",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_948104ff723b33695c7992880f25f38e",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 145
+},
+{
+"geometry": {"type": "Point","coordinates":[4.391796112060547,51.21334075927734]},
+"type": "Feature",
+"properties": {
+"name": "FITALITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_966039166aa226a5540e512604b00315",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 146
+},
+{
+"geometry": {"type": "Point","coordinates":[4.465291500091553,51.22636795043945]},
+"type": "Feature",
+"properties": {
+"name": "CONDITIE",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_9b7ffeaf185b32f96101358523c5b209",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 147
+},
+{
+"geometry": {"type": "Point","coordinates":[4.374251842498779,51.15970993041992]},
+"type": "Feature",
+"properties": {
+"name": "ASPEN",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_b094b82194390a2ca23cb2e5c61b8ae4",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 148
+},
+{
+"geometry": {"type": "Point","coordinates":[4.378369331359863,51.14972686767578]},
+"type": "Feature",
+"properties": {
+"name": "ANTWERP KARTING",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_b1ea34de5b8a137096d3891823db0292",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 149
+},
+{
+"geometry": {"type": "Point","coordinates":[4.408535480499268,51.20832824707031]},
+"type": "Feature",
+"properties": {
+"name": "SLENDER YOU",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_b4d1052c21f076c9d11cf2f6ecfb892c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 150
+},
+{
+"geometry": {"type": "Point","coordinates":[4.372478485107422,51.16136932373047]},
+"type": "Feature",
+"properties": {
+"name": "ANTARTICA",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_c087728e40d0c66dfcf94fdee7cb2902",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 151
+},
+{
+"geometry": {"type": "Point","coordinates":[4.392373085021973,51.21026229858398]},
+"type": "Feature",
+"properties": {
+"name": "PASSAGE FITNESS FIRST",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_c9008c92674b651225679dbb7bc8230c",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 152
+},
+{
+"geometry": {"type": "Point","coordinates":[4.400349617004395,51.21673202514648]},
+"type": "Feature",
+"properties": {
+"name": "MICKY'S SLANK &amp;AMP; FITSTUDIO",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_cc327fbb9b49f03a602dfec8cbb4c44b",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 153
+},
+{
+"geometry": {"type": "Point","coordinates":[4.410792350769043,51.19726943969727]},
+"type": "Feature",
+"properties": {
+"name": "THE PILTES STUDIO",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_cdf3dc9048d56225c5afc42f20012359",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 154
+},
+{
+"geometry": {"type": "Point","coordinates":[4.345948219299316,51.17424774169922]},
+"type": "Feature",
+"properties": {
+"name": "FIT &amp; STRONG",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_f66e7fe3acf71d3fd5892479484fe74d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 155
+},
+{
+"geometry": {"type": "Point","coordinates":[4.381383895874023,51.18717193603516]},
+"type": "Feature",
+"properties": {
+"name": "BETTER BODIES",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_fb131411eb477f441511f3416458dedc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 156
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419429779052734,51.18415451049805]},
+"type": "Feature",
+"properties": {
+"name": "HEALTCITY",
+"tipo": "Gym_fitness",
+"typeLabel": "Gym fitness",
+"serviceType": "Entertainment_Gym_fitness",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_fitness_centre_fitnesszaal_newfitnesszaaloverzicht_fcb19b258ad4782fe460fcf6ad67d91a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 157
+},
+{
+"geometry": {"type": "Point","coordinates":[4.377374172210693,51.18893051147461]},
+"type": "Feature",
+"properties": {
+"name": "SC KYLE",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_08cc93d6118cd75583225ba7fdba598a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 158
+},
+{
+"geometry": {"type": "Point","coordinates":[4.353276252746582,51.18426513671875]},
+"type": "Feature",
+"properties": {
+"name": "SC HOBOKEN",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_21c2b3d0b8a3ad03c41489c6403d86e6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 159
+},
+{
+"geometry": {"type": "Point","coordinates":[4.3956618309021,51.20373153686523]},
+"type": "Feature",
+"properties": {
+"name": "SC DE BALANS",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_24de0c422676968f1306e87adcccb0bd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 160
+},
+{
+"geometry": {"type": "Point","coordinates":[4.444389343261719,51.24660110473633]},
+"type": "Feature",
+"properties": {
+"name": "SC MERKSEM",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_2f1ec4776d958ac8c7a8ba6c0c49f2d5",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 161
+},
+{
+"geometry": {"type": "Point","coordinates":[4.437027931213379,51.22357559204102]},
+"type": "Feature",
+"properties": {
+"name": "SC POTVLIET",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_3b51b48fefbbd6130c401d192aacf2c8",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 162
+},
+{
+"geometry": {"type": "Point","coordinates":[4.435450077056885,51.22439193725586]},
+"type": "Feature",
+"properties": {
+"name": "SC DE VONDEL",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_46cf8ddae65a9bc53c56d91701f525ec",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 163
+},
+{
+"geometry": {"type": "Point","coordinates":[4.455775260925293,51.22085571289062]},
+"type": "Feature",
+"properties": {
+"name": "SC COEVELT",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_4e5b8762c067f839c684a1dbaa3b90a3",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 164
+},
+{
+"geometry": {"type": "Point","coordinates":[4.459529399871826,51.19940948486328]},
+"type": "Feature",
+"properties": {
+"name": "SC ARENA",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_55971a5650f72855b43320dba375d626",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 165
+},
+{
+"geometry": {"type": "Point","coordinates":[4.420757293701172,51.20348358154297]},
+"type": "Feature",
+"properties": {
+"name": "SC PLEIN",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_59f9310213149239b3d41bc5a44f1fbc",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 166
+},
+{
+"geometry": {"type": "Point","coordinates":[4.396902561187744,51.21773147583008]},
+"type": "Feature",
+"properties": {
+"name": "SC DE OEVER",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_5a6a1f51d1df82622fc835b4305093b2",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 167
+},
+{
+"geometry": {"type": "Point","coordinates":[4.401897430419922,51.22347640991211]},
+"type": "Feature",
+"properties": {
+"name": "SC VEEMARKT",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_5dd8128a621407bebf9766b9c00db546",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 168
+},
+{
+"geometry": {"type": "Point","coordinates":[4.438321113586426,51.19838333129883]},
+"type": "Feature",
+"properties": {
+"name": "SC ARENA, AFD. GROENENHOEK",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_5e24d3cea6a9729803c9f3bf7206cee6",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 169
+},
+{
+"geometry": {"type": "Point","coordinates":[4.412779331207275,51.27568435668945]},
+"type": "Feature",
+"properties": {
+"name": "SC EKEREN",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_605d06e4f77e2da2f082094562ebe738",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 170
+},
+{
+"geometry": {"type": "Point","coordinates":[4.4222731590271,51.24995040893555]},
+"type": "Feature",
+"properties": {
+"name": "SC LUCHTBAL",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_838618d5b4df30ef78e2a101b4a10d53",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 171
+},
+{
+"geometry": {"type": "Point","coordinates":[4.442685604095459,51.21128463745117]},
+"type": "Feature",
+"properties": {
+"name": "SC DE FONTEIN",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_9a2827a3fd1a178683dd5239ef20c21a",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 172
+},
+{
+"geometry": {"type": "Point","coordinates":[4.390723705291748,51.17221069335938]},
+"type": "Feature",
+"properties": {
+"name": "SC WILRIJK",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_a161050db44d1b7ea1b6ec2d9eb391e2",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 173
+},
+{
+"geometry": {"type": "Point","coordinates":[4.427190780639648,51.20761489868164]},
+"type": "Feature",
+"properties": {
+"name": "SC ZURENBORG",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_a22797702b698acb82369dd6aac05d26",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 174
+},
+{
+"geometry": {"type": "Point","coordinates":[4.427849292755127,51.22159576416016]},
+"type": "Feature",
+"properties": {
+"name": "SC SEEFHOEK",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_a8baeba221c467a2e05ff879aa8682ac",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 175
+},
+{
+"geometry": {"type": "Point","coordinates":[4.321851253509521,51.34406661987305]},
+"type": "Feature",
+"properties": {
+"name": "SC EKEREN, AFD. DE REIGER",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_b08210c393d35fff1418f3aa08d28d7d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 176
+},
+{
+"geometry": {"type": "Point","coordinates":[4.377634525299072,51.22379302978516]},
+"type": "Feature",
+"properties": {
+"name": "SC LINKEROEVER",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_d642fc89e7930c2146f11cf9aa5364fd",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 177
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419880390167236,51.22784042358398]},
+"type": "Feature",
+"properties": {
+"name": "SC DE WILG",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_dc291e28ae950c67e63a9868adea327d",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 178
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419398307800293,51.22775650024414]},
+"type": "Feature",
+"properties": {
+"name": "SC DAM",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_de853b594b59537ab112cfea7ac68a52",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 179
+},
+{
+"geometry": {"type": "Point","coordinates":[4.419347763061523,51.19551467895508]},
+"type": "Feature",
+"properties": {
+"name": "SC BERCHEM",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_f5ad0e365462cf4b5f4873e70b364c09",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 180
+},
+{
+"geometry": {"type": "Point","coordinates":[4.427181720733643,51.20756530761719]},
+"type": "Feature",
+"properties": {
+"name": "PROJECT NIET-BEGELEIDE MINDERJARIGEN",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_f75929ca2be2676b5b5fe70ed4c8c2d8",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 181
+},
+{
+"geometry": {"type": "Point","coordinates":[4.442584037780762,51.21116638183594]},
+"type": "Feature",
+"properties": {
+"name": "SC STENENBRUG",
+"tipo": "Social_centre",
+"typeLabel": "Social centre",
+"serviceType": "Entertainment_Social_centre",
+"distance": "1",
+"serviceUri": "http://www.disit.org/km4city/resource/Antwerp_Socialcenter_sociaalcentrum_newsociaalcentrumoverzicht_ffa2c34ca3b91dbe574b9c0623125642",
+   "photoThumbs": [],
+"multimedia": ""
+},
+"id": 182
+}]}
+}

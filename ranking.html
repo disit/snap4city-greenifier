@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="vendor/wow/animate.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+				</style>
+
+	</head>
+	<body class="clr-accent-lime">
+
+		<div data-role="page" class="nd2-no-menu-swipe">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed" class="wow fadeIn">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Top Greenifiers</h1>
+
+			</div>
+
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.2s">
+
+					<div data-role="nd2tab"
+								data-tab="work">
+
+
+							<ul data-role="listview" data-icon="false">
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/leonardo.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Leonardo Da Vinci</h2>
+										<p>2563 Green Points</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/rubens.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Paul Andries</h2>
+										<p>1234 Green Points</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/people-1.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Jane Puylaert</h2>
+										<p>932 Green Points</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/brunelleschi.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Filippo Brunelleschi</h2>
+										<p>949 Green Points</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/people-9.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Lotte Debrouwere</h2>
+										<p>876 Green Points</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="https://antwerp.greenifiers.net/img/people-10.jpg" class="ui-thumbnail ui-thumbnail-circular" />
+										<h2>Stijn Devriendt</h2>
+										<p>823 Green Points</p>
+									</a>
+								</li>
+							</ul>
+
+					</div>
+
+					
+	
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+					#map { height: 100%; width: 100vw; }
+				</style>
+				<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+
+		    <style type="text/css">
+				  .bus {
+						background: orange;
+						color: #333;
+						width: 42px !important;
+						font-size: 10px;
+						font-family: sans-serif;
+						text-align: center;
+						padding: 2px 3px 3px 3px;
+						border-radius: 4px;
+						opacity: 80%;
+				}
+				.route-change {
+					background: #6554C0; /* #BF2600; red */
+					color: white;
+					width: 32px !important;
+					height: 18px !important;
+					font-size: 12px;
+					font-family: sans-serif;
+					text-align: center;
+					padding: 2px 3px 3px 3px;
+					border-radius: 4px;
+					opacity: 80%;
+					overflow: hidden;
+				}
+				.route-change-tovehicle {
+					background: #6554C0;
+					color: white;
+				}
+				.route-change-towalk {
+					background: #006644;
+					color: white;
+				}
+				.route-change-end {
+					background: #333;
+					color: white;
+				}
+				.bus-marker-style-1 { background: #FFAB00;	}
+				.bus-marker-style-2 { background: #FFC400;	}
+				.bus-marker-style-3 {	background: #36B37E; color: white;	}
+				.bus-marker-style-4 {	background: #57D9A3;	}
+				.bus-marker-style-5 {	background: #00B8D9;	}
+				.bus-marker-style-6 {	background: #00C7E5;	}
+				.bus-marker-style-7 {	background: #4C9AFF; color: white; }
+				.bus-marker-style-8 {	background: #2684FF; color: white; }
+				.bus-marker-style-9 {	background: #8777D9;	}
+				.bus-marker-style-10 { background: orange;	}
+				.bus-marker-style-11 {	background: #998DD9; color: white; }
+			
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fas fa-bars"></i></a>
+				<h1>Route planner</h1>
+			</div>
+
+			<div role="main" class="ui-content" style='padding: 0px;' data-inset="false">
+				<div id="map" style="width: 100%; height: 690px;"></div>
+				<script>
+
+					var mymap = L.map('map').setView([51.275, 4.368], 13);
+					var data_url = "https://servicemap.disit.org/WebAppGrafo/api/v1/tpl/bus-position/?format=json";
+					var bus_marker_style_count = 10;
+					var current_style = 0;
+					
+					L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYXAyMDAzIiwiYSI6ImNqc2o2c2J6YjByeDg0OW9sYmEzMWtwODgifQ.lvJkkjuWq5pDwlh00nglXA', {
+						maxZoom: 18,
+						attribution: 'Data: <a href="https://snap4city.org/">Snap4city</a>, <a href="https://data.delijn.be">De Lijn</a>',
+						id: 'mapbox.streets'
+					}).addTo(mymap);
+
+				  var markers = {};
+					var items = [];
+					var bus_line_colors = {};
+					
+					var circle_center = L.latLng(51.2144, 4.4203);
+					var circle_radius = 500; // meters
+
+					user_location_marker = "";
+					user_out_of_bounds_warned = false;
+
+function onLocationFound(e) {
+	var territory_bounds = L.latLngBounds(L.latLng(51.42, 4.12), L.latLng(51.09, 4.73));
+	var default_location = L.latLng(51.207,4.392);
+	var radius = e.accuracy / 2;
+							
+	if (user_location_marker) {
+		mymap.removeLayer(user_location_marker);
+	}
+							
+							var avatar_icon = L.icon({iconUrl: 'https://antwerp.greenifiers.net/assets/marker-rubens.png'});
+
+							if (!territory_bounds.contains(e.latlng)) {
+								if (!user_out_of_bounds_warned) {
+									alert("You couldn't be located in Antwerp. A default location will be used for demo purposes.");
+									user_out_of_bounds_warned = true;
+								}
+								user_location_marker = L.marker(default_location, {zIndexOffset: 1001, icon: avatar_icon});
+								//e.latlng = default_location;
+							} else {
+								user_location_marker = L.marker(e.latlng, {zIndexOffset: 1001, icon: avatar_icon});
+							}
+							user_location_marker.addTo(mymap);
+						}
+
+						function onLocationError(e) {
+							alert(e.message);
+						}
+
+						mymap.on('locationfound', onLocationFound);
+						mymap.on('locationerror', onLocationError);
+						
+						if (urlParam('follow') && urlParam('follow') == 'yes') {
+							mymap.locate({maximumAge: 120000, timeout: 55000, enableHighAccuracy: true, maxZoom: 16, watch: true});
+						} else {
+							mymap.locate({maximumAge: 120000, timeout: 55000, enableHighAccuracy: true});
+						}
+
+//	mymap.locate({setView: true, maxZoom: 16});
+
+
+					function setHeader(xhr) {
+					        xhr.setRequestHeader('Ocp-Apim-Subscription-Key', '4863e46241d2471d964a38f8d76ed457');
+					      }
+
+real_time_panel_control = "";
+
+function add_realtime_panel(bus_stop_code) {
+								L.Control.Watermark = L.Control.extend({
+								    onAdd: function(mymap) {
+								        var box = L.DomUtil.create('iframe');
+
+								        box.src = 'https://www.delijn.be/realtime/' + bus_stop_code + '/3';
+												box.style.width = '150%';
+												box.style.border = '0px';
+												
+												real_time_panel_control = box;
+								        return box;
+								    },
+
+								    onRemove: function(mymap) {
+								    }
+								});
+
+								L.control.watermark = function(opts) {
+								    return new L.Control.Watermark(opts);
+								}
+
+								L.control.watermark({ position: 'topright' }).addTo(mymap);
+}
+
+
+stop_ids = [];
+
+function urlParam(name) {
+		var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+		if (results==null){
+			 return null;
+		}
+		else{
+			 return results[1] || 0;
+		}
+}
+
+
+place_name = "";
+
+var map_bounds = new L.LatLngBounds();
+var total_route_length = 0;
+
+				  function update_map() {
+
+						$.ajax({
+	url: 'https://api.delijn.be/DLKernOpenData/v1/beta/gemeenten/1985/haltes',
+	type: 'GET',
+	dataType: 'json',
+	beforeSend: setHeader,
+	success: function(data) {
+							route_steps = [];
+							route_steps_objects = [];
+							route_start = [51.207,4.392];
+							if (urlParam('from')) {
+								route_end = urlParam('from').split(',')
+							}
+							route_end = [51.2144,4.4203];
+							if (urlParam('to')) {
+								route_end = urlParam('to').split(',')
+							}
+							if (urlParam('place')) {
+								place_name = decodeURIComponent(urlParam('place'))
+							} else {
+								place_name = "End"
+							}
+							var circle = L.circle(route_end, {
+	color: '#2b8702',
+ fillColor: '#0f3',
+
+		    fillOpacity: 0.10,
+		    radius: circle_radius
+		}).addTo(mymap);
+							
+							
+							var avatar_icon = L.icon({iconUrl: 'https://antwerp.greenifiers.net/assets/marker-rubens.png',
+    //iconSize: [32, 32],
+    //iconAnchor: [22, 94],
+    //popupAnchor: [-3, -76],
+    //shadowUrl: 'my-icon-shadow.png',
+    //shadowSize: [68, 95],
+    //shadowAnchor: [22, 94]
+});
+L.marker(route_start, {class: 'avatar-marker', zIndexOffset: 1001, icon: avatar_icon}).bindTooltip('Start here').addTo(mymap);
+
+//							L.marker(route_start, {}).bindTooltip('route_start').addTo(mymap);
+							L.marker(route_end, {}).bindTooltip(place_name).addTo(mymap);
+							
+							last_point = "";
+
+							$.getJSON("https://www.snap4city.org/ServiceMap/api/v1/?selection=wkt:POLYGON((4.2445%2051.3763,4.3310%2051.3780,4.3433%2051.3583,4.375325817037492%2051.35617096045459,4.361077922750383%2051.33408272105304,4.381848949361711%2051.309408514649384,4.429914134908586%2051.2699021716866,4.461499828267961%2051.244118851693784,4.501325267721086%2051.223051746136605,4.482099193502336%2051.18045815833191,4.453260082174211%2051.17486213533129,4.428540843892961%2051.16388334800758,4.412747997213273%2051.155055368855834,4.377729076314836%2051.14557956072365,4.332410472799211%2051.157424016881635,4.324170726705461%2051.183040709089155,4.348889964986711%2051.20068426710749,4.346143382955461%2051.21660070373628,4.359876293111711%2051.2415397243542,4.306317943502336%2051.25787175517197,4.302198070455461%2051.29996443767946,4.281598705221086%2051.317134041283,4.244519847799211%2051.37631986899264))&categories=Entertainment&maxResults=500&format=json", function (data) {
+							   $.each(data.Services.features, function (key, val) {
+							       poi = {
+							         label: val.properties.name + " (" + val.id + ")",
+//							         value: val.properties.name,
+											 // Latitude and longitude are in the oppostie order.
+											 coords: val.geometry.coordinates.reverse()
+										 };
+										 if (L.latLng(route_end).distanceTo(poi.coords) <= circle_radius) {
+										 	L.marker(poi.coords, {}).bindTooltip(poi.label).addTo(mymap);
+										}
+//										 available_options.push(val.properties.name);
+									 });
+							});
+
+
+												$.ajax({
+							// url: 	'/dev-resources/routeplan.json',
+							// url: 	'https://api.delijn.be/DLKernOpenData/v1/beta/routeplan/51.207,4.392/51.2144,4.4203?aanvraagType=INITIEEL&tijdstip=2019-03-09T14:00:00&vertrekAankomst=VERTREK',
+							//url: 	'https://api.delijn.be/DLKernOpenData/v1/beta/routeplan/' + route_start.join() + '/' + route_end.join() +'?aanvraagType=INITIEEL&tijdstip=2019-03-14T10:00:00&vertrekAankomst=VERTREK',
+							url: 	'https://api.delijn.be/DLKernOpenData/v1/beta/routeplan/' + route_start.join() + '/' + route_end.join() +'?aanvraagType=INITIEEL&vertrekAankomst=VERTREK',
+							type: 'GET',
+							dataType: 'json',
+							beforeSend: setHeader,
+							success: function(data) {
+								$.each(data.reiswegen, function( key, val ) {
+									// Bestpassend: Best route - Overstappen: change
+									if (val.bestpassend) {
+										trip_start_time = val.duurtijd.start;
+										trip_end_time = val.duurtijd.einde;
+										trip_duration = val.duurtijd.duurtijd;
+										$.each( val.reiswegStappen, function( key, val_route_leg ) {
+											route_leg = [];
+											if (val_route_leg.geoCoordinaten) {
+												var route_leg_first_point;
+												$.each(val_route_leg.geoCoordinaten, function(key, val_coords ) {
+													route_point = [val_coords.latitude, val_coords.longitude];
+													if (route_leg.length === 0) {
+														route_leg_first_point = route_point;
+													}
+													last_point = route_point;
+													route_leg.push(route_point);
+													map_bounds.extend(route_point);
+													//var myIcon = L.divIcon({className: 'bus', html: 'route'});
+													//markers[id] = L.marker(route_point, {icon: myIcon}).bindTooltip('route');
+													//markers[id].addTo(mymap);
+												});
+											}
+											switch (val_route_leg.type) {
+												case "VOERTUIG":
+													transport_length = (val_route_leg.afstand ? val_route_leg.afstand : 0);
+													total_route_length += transport_length;
+													transport_type = val_route_leg.lijnType;
+													transport_vehicle_id = val_route_leg.ritnummer; // ???
+													transport_line = val_route_leg.lijnrichting.lijnnummer;
+													transport_destination = val_route_leg.lijnrichting.omschrijving.replace(/.* - /, ">");
+													transport_start_time = val_route_leg.duurtijd.start.replace(/.*T/g, "").replace(/:00$/g, "");
+													//realtime_url = val_route_leg.links.
+													//https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/real-time
+													var myIcon = L.divIcon({className: 'route-change route-change-tovehicle', html: '<i class="fas fa-bus"></i> <strong>' + transport_line + '</strong>'});
+													markers[transport_vehicle_id] = L.marker(route_leg_first_point, {zIndexOffset: 100, icon: myIcon}).bindTooltip(transport_type.toLowerCase() + ' ' + transport_destination + '<br>' + transport_start_time);
+													markers[transport_vehicle_id].addTo(mymap);
+													break;
+												case "WANDELEN":
+													// transport_type = val_route_leg.lijnType;
+													walk_length = val_route_leg.afstand;
+													total_route_length += walk_length;
+													walk_start_time = val_route_leg.duurtijd.start.replace(/:/g, "-");
+													var myIcon = L.divIcon({className: 'route-change route-change-towalk', html: '<i class="fas fa-walking"></i>'});
+													markers[walk_start_time] = L.marker(route_leg_first_point, {icon: myIcon}).bindTooltip('Walk '+walk_length+'m');
+													markers[walk_start_time].addTo(mymap);
+													break;
+												default:
+													break;
+											}
+											console.log(route_leg);
+											route_steps.push(route_leg);
+											var route_steps_object = { route_means: val_route_leg.type, route_points: route_leg }
+											route_steps_objects.push(route_steps_object);
+											mymap.fitBounds(map_bounds);
+										});
+									}
+								});
+							alert("Best start: "+ trip_start_time);
+							// var polyline = L.polyline(route_steps, {color: 'red'}).addTo(mymap);
+							$.each(route_steps_objects, function(key, val_route_step) {
+								if (val_route_step.route_means == "VOERTUIG") {
+									leg_color = '#6554C0';
+								} else {
+									leg_color = '#006644';
+								}
+								var polyline = L.polyline(val_route_step.route_points, {color: leg_color, weight: 5}).addTo(mymap);
+								//mymap.fitBounds(polyline.getBounds());
+							});
+							var saved_co2 = total_route_length * 0.0002; // Kg / m
+							saved_co2 = saved_co2.toFixed(2);
+							points_gained = Math.ceil((total_route_length / 1000));
+							var myIcon = L.divIcon({className: 'route-change route-change-end', html: '<strong>end</strong>'});
+							markers['route-end'] = L.marker(last_point, {icon: myIcon}).bindTooltip('Route End<br><strong>'+total_route_length+'</strong> meters<br><strong>' + saved_co2 + 'Kg</strong> CO2 saved<br><strong>' +  points_gained + '</strong> green points');
+							markers['route-end'].addTo(mymap);
+		
+//							var polyline = L.polyline(route_steps, {weight: 5}).addTo(mymap);
+//							mymap.fitBounds(polyline.getBounds());
+						}
+					});
+								
+				}
+			});
+		}
+				
+				function update2() {
+
+
+		}
+
+
+
+
+				  update_map();
+					update2();
+//					add_realtime_panel(102073);
+//					setInterval(update_map, 10000);
+					 
+
+				</script>
+
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

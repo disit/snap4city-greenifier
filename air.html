@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+ 		<meta charset="UTF-8">
+		<title>Greenifiers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+				<style>
+					/* Prevent FOUC */
+					body { opacity: 0; }
+					#map { height: 100%; width: 100vw; }
+				</style>
+
+		    <style type="text/css">
+				  .bus {
+						background: orange;
+						color: #333;
+						width: 25px;
+						font-size: 10px;
+						font-family: sans-serif;
+						text-align: center;
+						padding: 2px 3px 3px 3px;
+						border-radius: 4px;
+						opacity: 80%;
+				}
+				.bus-marker-style-1 { background: #FFAB00;	}
+				.bus-marker-style-2 { background: #FFC400;	}
+				.bus-marker-style-3 {	background: #36B37E; color: white;	}
+				.bus-marker-style-4 {	background: #57D9A3;	}
+				.bus-marker-style-5 {	background: #00B8D9;	}
+				.bus-marker-style-6 {	background: #00C7E5;	}
+				.bus-marker-style-7 {	background: #4C9AFF; color: white; }
+				.bus-marker-style-8 {	background: #2684FF; color: white; }
+				.bus-marker-style-9 {	background: #8777D9;	}
+				.bus-marker-style-10 { background: orange;	}
+				.bus-marker-style-11 {	background: #998DD9; color: white; }
+			
+				</style>
+
+	</head>
+	<body>
+
+		<div data-role="page">
+
+			<nd2-include data-src="panel.left.html"></nd2-include>
+
+
+			<div data-role="header" data-position="fixed">
+				<a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fas fa-bars"></i></a>
+				<h1>Air quality in Antwerp</h1>
+			</div>
+
+			<div role="main" class="ui-content" data-inset="false">
+				
+				<p>Data are retrieved in real-time from the <a href="https://snap4city.org">Snap4city web site</a>.</p>
+
+				<div class="airdata">
+				</div>
+				
+				<script>
+
+//var data_url = "/assets/air-antwerp.json";
+var antwerp_shape = "4.2445 51.3763,4.3310 51.3780,4.3433 51.3583,4.3753 51.3561,4.3610 51.3340,4.3818 51.3094,4.4299 51.2699,4.4614 51.2441,4.5013 51.2230,4.4820 51.1804,4.4532 51.1748,4.4285 51.1638,4.4127 51.1550,4.3777 51.1455,4.3324 51.1574,4.3241 51.1830,4.3488 51.2006,4.3461 51.2166,4.3598 51.2415,4.3063 51.2578,4.3021 51.2999,4.2815 51.3171,4.2445 51.3763";
+var data_url = "https://www.snap4city.org/ServiceMap/api/v1/?selection=wkt:POLYGON((" + antwerp_shape + "))&categories=Air_quality_monitoring_station&maxResults=200&format=json";
+
+var items = [];
+var service_uris = [];
+var template_url = 'https://www.snap4city.org/ServiceMap/api/v1/?serviceUri=__ENDPOINT__&format=json';
+	
+					items.push( "<tr> <th>Station</th> <th>PM10</th> </tr>" );
+	
+				  function create_table() {
+						$.getJSON(data_url, function(data) {
+						  $.each(data.Services.features, function(key, val) {
+								service_uri = decodeURIComponent(val.properties.serviceUri);
+								// alert (service_uri);
+								stazione = val.properties.name.replace(/[^4]*4/, "4");
+								pm = "...";
+ 								items.push( "<tr id='row" + key + "'> <td>"+stazione+"</td> <td id='reading" + key + "'>"+pm+"</td> </tr>" );
+								service_uris.push({id: key, endpoint: template_url.replace('__ENDPOINT__', service_uri)});
+						 	});
+							$( "<table/>", {
+						    "class": "air-quality-table",
+						    html: items.join("")
+						  }).appendTo( "div.airdata");
+							$.each(service_uris, function(key, val) {
+								// alert(val.endpoint);
+								//alert(val.id);
+								var element_id = '#reading'+val.id;
+								
+								$.ajax({
+									url: val.endpoint,
+									// data: {
+									// 	format: 'json'
+									// },
+									error: function() {
+										$('#row'+val.id).hide();
+									},
+									//dataType: 'jsonp',
+									success: function(data) {
+										var pm = "<i class='fas fa-power-off'></i>";
+										$(element_id).html(pm);
+										if (data.realtime && data.realtime.results && data.realtime.results.bindings && data.realtime.results.bindings[0] &&
+										 		data.realtime.results.bindings[0].airQualityPM10 && data.realtime.results.bindings[0].airQualityPM10.value !== "null") {
+											pm = data.realtime.results.bindings[0].airQualityPM10.value;
+										}
+										//$('#coordinates').val(ui.item.coords);
+										$(element_id).html(pm);
+									},
+									type: 'GET'
+								});
+								
+								
+                // 
+								// $.getJSON(, function(data) {
+								// 	if (data.httpcode == 400) {
+								// 		$('#row'+val.id).hide();
+								// 	} else {
+								// });
+						 	});
+							
+
+						});
+				}
+
+				  create_table();
+			 
+
+				</script>
+
+
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+	</body>
+</html>

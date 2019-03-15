@@ -1,0 +1,19 @@
+{"BusStop": 
+{ "type": "FeatureCollection", "features": [ 
+{  "geometry": {       "type": "Point",      "coordinates": [         4.425732,        51.21522   ]  },  "type": "Feature",  "properties": {      "name": "Antwerpen Ploeg",     "serviceUri": "http://www.disit.org/km4city/resource/Bus_de_lijn_zip_ST_Stop_21342",     "typeLabel": "BusStop",     "address": "",     "code": "104660",     "agency": "De Lijn",     "agencyUri": "http://www.disit.org/km4city/resource/Bus_de_lijn_zip_ST_Agency_1",     "serviceType": "TransferServiceAndRenting_BusStop",
+    "photos": [],
+    "photoThumbs": [],
+    "photoOrigs": [],
+    "avgStars": 0.0,
+    "starsCount": 0,
+    "comments": []}, "id": 1 }
+] },
+"busLines":
+{ "head": {"busStop": "Antwerpen Ploeg","vars": ["busLine","lineUri","lineDesc"]},
+"results": {
+"bindings": [
+{"busLine": {"type": "literal","value": "11"  },"lineUri": {"type": "literal","value": "http://www.disit.org/km4city/resource/Bus_de_lijn_zip_ST_Route_45817"  },"lineDesc": {"type": "literal","value": "Berchem - Melkmarkt"  } }
+]}}
+,"timetable":{}
+,"realtime": {}
+}

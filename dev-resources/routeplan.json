@@ -1,0 +1,4979 @@
+{
+  "reiswegen": [
+    {
+      "bestpassend": false,
+      "overstappen": 1,
+      "duurtijd": {
+        "start": "2019-03-09T13:55:00",
+        "einde": "2019-03-09T14:18:00",
+        "duurtijd": "P0DT0H23M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 115,
+          "duurtijd": {
+            "start": "2019-03-09T13:55:00",
+            "einde": "2019-03-09T13:57:00",
+            "duurtijd": "P0DT0H2M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103041",
+            "naam": "Antwerpen Graaf Van Hoornestraat",
+            "geoCoordinaat": {
+              "latitude": 51.20640490662504,
+              "longitude": 4.392653322980821
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.20637797100156,
+              "longitude": 4.392510220535035
+            },
+            {
+              "latitude": 51.20633300805592,
+              "longitude": 4.3926103586374285
+            },
+            {
+              "latitude": 51.206386935703044,
+              "longitude": 4.3926246958507384
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "BUS",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "708",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "183",
+            "richting": "TERUG",
+            "omschrijving": "Niel - Aartselaar - Groenplaats",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/183/lijnrichtingen/TERUG/rit/708?datum=2019-03-09T13:57:00"
+              }
+            ]
+          },
+          "afstand": 1760,
+          "duurtijd": {
+            "start": "2019-03-09T13:57:00",
+            "einde": "2019-03-09T14:02:00",
+            "duurtijd": "P0DT0H5M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103041",
+            "naam": "Antwerpen Graaf Van Hoornestraat",
+            "geoCoordinaat": {
+              "latitude": 51.20640490662504,
+              "longitude": 4.392653322980821
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "102675",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21874388958414,
+              "longitude": 4.4012903404008545
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20639593305328,
+              "longitude": 4.39258177410017
+            },
+            {
+              "latitude": 51.20938879709776,
+              "longitude": 4.393914154310335
+            },
+            {
+              "latitude": 51.20962243321965,
+              "longitude": 4.394200480226134
+            },
+            {
+              "latitude": 51.20982012132391,
+              "longitude": 4.394458168880155
+            },
+            {
+              "latitude": 51.20983809497627,
+              "longitude": 4.394472488939851
+            },
+            {
+              "latitude": 51.21005375931848,
+              "longitude": 4.394730190218848
+            },
+            {
+              "latitude": 51.21097929621053,
+              "longitude": 4.395904158882888
+            },
+            {
+              "latitude": 51.21106915677492,
+              "longitude": 4.396004384381149
+            },
+            {
+              "latitude": 51.21107814181118,
+              "longitude": 4.396018700031569
+            },
+            {
+              "latitude": 51.21134771266728,
+              "longitude": 4.396362310025957
+            },
+            {
+              "latitude": 51.21182395690096,
+              "longitude": 4.396949329366462
+            },
+            {
+              "latitude": 51.21190482813255,
+              "longitude": 4.397049553106314
+            },
+            {
+              "latitude": 51.21195874458296,
+              "longitude": 4.397106828769565
+            },
+            {
+              "latitude": 51.212012668047734,
+              "longitude": 4.3971354834629155
+            },
+            {
+              "latitude": 51.21204861114703,
+              "longitude": 4.397178437565624
+            },
+            {
+              "latitude": 51.21263279087064,
+              "longitude": 4.397450706457758
+            },
+            {
+              "latitude": 51.21278557253413,
+              "longitude": 4.397536667490468
+            },
+            {
+              "latitude": 51.21280354936209,
+              "longitude": 4.397536678853353
+            },
+            {
+              "latitude": 51.21294734611745,
+              "longitude": 4.397608323946489
+            },
+            {
+              "latitude": 51.213864056030296,
+              "longitude": 4.398038238453161
+            },
+            {
+              "latitude": 51.21407076401028,
+              "longitude": 4.398138549631964
+            },
+            {
+              "latitude": 51.21452911803819,
+              "longitude": 4.39835351516232
+            },
+            {
+              "latitude": 51.21453810277787,
+              "longitude": 4.39836783232746
+            },
+            {
+              "latitude": 51.215239109935645,
+              "longitude": 4.398711764987322
+            },
+            {
+              "latitude": 51.21524809462944,
+              "longitude": 4.3987260824394605
+            },
+            {
+              "latitude": 51.21538290584222,
+              "longitude": 4.398783417445781
+            },
+            {
+              "latitude": 51.2158142895067,
+              "longitude": 4.399012689190146
+            },
+            {
+              "latitude": 51.215832262565314,
+              "longitude": 4.399027012845932
+            },
+            {
+              "latitude": 51.21617377675525,
+              "longitude": 4.399198981608102
+            },
+            {
+              "latitude": 51.21869895164114,
+              "longitude": 4.401275995769426
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 78,
+          "duurtijd": {
+            "start": "2019-03-09T14:02:00",
+            "einde": "2019-03-09T14:04:00",
+            "duurtijd": "P0DT0H2M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "102675",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21874388958414,
+              "longitude": 4.4012903404008545
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21871692440525,
+              "longitude": 4.4012903211836685
+            },
+            {
+              "latitude": 51.21871692038157,
+              "longitude": 4.401304633791984
+            },
+            {
+              "latitude": 51.21869891538113,
+              "longitude": 4.401404809194533
+            },
+            {
+              "latitude": 51.21859992117552,
+              "longitude": 4.401834115660784
+            },
+            {
+              "latitude": 51.2185909286926,
+              "longitude": 4.401848421719851
+            },
+            {
+              "latitude": 51.2185909286926,
+              "longitude": 4.401848421719851
+            },
+            {
+              "latitude": 51.21855494234015,
+              "longitude": 4.40196289613512
+            },
+            {
+              "latitude": 51.21855493823504,
+              "longitude": 4.4019772086936575
+            },
+            {
+              "latitude": 51.21854594984148,
+              "longitude": 4.401977202155553
+            },
+            {
+              "latitude": 51.21850098320623,
+              "longitude": 4.402063044716924
+            },
+            {
+              "latitude": 51.218500979088994,
+              "longitude": 4.40207735725889
+            },
+            {
+              "latitude": 51.218500979088994,
+              "longitude": 4.40207735725889
+            },
+            {
+              "latitude": 51.21849199069527,
+              "longitude": 4.402077350701491
+            },
+            {
+              "latitude": 51.218447061072595,
+              "longitude": 4.40203438033828
+            },
+            {
+              "latitude": 51.21844706929493,
+              "longitude": 4.402005755287436
+            },
+            {
+              "latitude": 51.2184560741127,
+              "longitude": 4.401948511718276
+            }
+          ]
+        },
+        {
+          "type": "WACHTEN",
+          "duurtijd": {
+            "start": "2019-03-09T14:04:00",
+            "einde": "2019-03-09T14:10:00",
+            "duurtijd": "P0DT0H6M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          }
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "97",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "9",
+            "richting": "HEEN",
+            "omschrijving": "P+R Linkeroever - Silsburg",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/rit/97?datum=2019-03-09T14:10:00"
+              }
+            ]
+          },
+          "afstand": 1460,
+          "duurtijd": {
+            "start": "2019-03-09T14:10:00",
+            "einde": "2019-03-09T14:15:00",
+            "duurtijd": "P0DT0H5M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.2184291089309,
+              "longitude": 4.401948492120608
+            },
+            {
+              "latitude": 51.21842909250703,
+              "longitude": 4.402005742200257
+            },
+            {
+              "latitude": 51.218429071938225,
+              "longitude": 4.402077304799759
+            },
+            {
+              "latitude": 51.218411086910564,
+              "longitude": 4.402105916713751
+            },
+            {
+              "latitude": 51.21835703629217,
+              "longitude": 4.4025209397720895
+            },
+            {
+              "latitude": 51.2183120984917,
+              "longitude": 4.402506594073749
+            },
+            {
+              "latitude": 51.21831209014812,
+              "longitude": 4.402535219041648
+            },
+            {
+              "latitude": 51.21835702794511,
+              "longitude": 4.402549564767573
+            },
+            {
+              "latitude": 51.218339005123966,
+              "longitude": 4.402706988885049
+            },
+            {
+              "latitude": 51.21832097366284,
+              "longitude": 4.402893037854119
+            },
+            {
+              "latitude": 51.21831196416266,
+              "longitude": 4.402964593558896
+            },
+            {
+              "latitude": 51.218302946147354,
+              "longitude": 4.403064774198211
+            },
+            {
+              "latitude": 51.218302890911744,
+              "longitude": 4.403250836452186
+            },
+            {
+              "latitude": 51.21831187078231,
+              "longitude": 4.403279468203384
+            },
+            {
+              "latitude": 51.21832080360312,
+              "longitude": 4.403465537317665
+            },
+            {
+              "latitude": 51.21833872021579,
+              "longitude": 4.403665925856072
+            },
+            {
+              "latitude": 51.218338715904494,
+              "longitude": 4.403680238348087
+            },
+            {
+              "latitude": 51.218356658140294,
+              "longitude": 4.4037947520609455
+            },
+            {
+              "latitude": 51.218401556763915,
+              "longitude": 4.403937911615986
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.2184733941995,
+              "longitude": 4.4041669674774715
+            },
+            {
+              "latitude": 51.21850033312292,
+              "longitude": 4.40425286360748
+            },
+            {
+              "latitude": 51.21850929080387,
+              "longitude": 4.4043530583944275
+            },
+            {
+              "latitude": 51.218509264411196,
+              "longitude": 4.404438933660208
+            },
+            {
+              "latitude": 51.218500253976075,
+              "longitude": 4.404510489355209
+            },
+            {
+              "latitude": 51.21850024956259,
+              "longitude": 4.404524801896725
+            },
+            {
+              "latitude": 51.2184732445822,
+              "longitude": 4.404653593608265
+            },
+            {
+              "latitude": 51.218455232299675,
+              "longitude": 4.404768079721767
+            },
+            {
+              "latitude": 51.21845516544744,
+              "longitude": 4.404982767636546
+            },
+            {
+              "latitude": 51.218329156829135,
+              "longitude": 4.405526542573026
+            },
+            {
+              "latitude": 51.218230013874404,
+              "longitude": 4.406370898178464
+            },
+            {
+              "latitude": 51.21818492729627,
+              "longitude": 4.4068145470346565
+            },
+            {
+              "latitude": 51.21815778258266,
+              "longitude": 4.407358397197768
+            },
+            {
+              "latitude": 51.218130601562144,
+              "longitude": 4.408002433721671
+            },
+            {
+              "latitude": 51.21804912337643,
+              "longitude": 4.409691227945227
+            },
+            {
+              "latitude": 51.21802199093561,
+              "longitude": 4.410163512878623
+            },
+            {
+              "latitude": 51.218030758559586,
+              "longitude": 4.410778954058215
+            },
+            {
+              "latitude": 51.218048511374654,
+              "longitude": 4.411394403822404
+            },
+            {
+              "latitude": 51.21825491050957,
+              "longitude": 4.412296281273766
+            },
+            {
+              "latitude": 51.21825473825818,
+              "longitude": 4.412754280164389
+            },
+            {
+              "latitude": 51.218308478189364,
+              "longitude": 4.413255268718962
+            },
+            {
+              "latitude": 51.218245383466936,
+              "longitude": 4.413713206530248
+            },
+            {
+              "latitude": 51.21814626628307,
+              "longitude": 4.4143428567300464
+            },
+            {
+              "latitude": 51.217939067950226,
+              "longitude": 4.415516265726595
+            },
+            {
+              "latitude": 51.21784888292283,
+              "longitude": 4.416260415948897
+            },
+            {
+              "latitude": 51.21775872872793,
+              "longitude": 4.416918689417593
+            },
+            {
+              "latitude": 51.21770466185944,
+              "longitude": 4.417247815715958
+            },
+            {
+              "latitude": 51.21764154564758,
+              "longitude": 4.417720054470973
+            },
+            {
+              "latitude": 51.217632545225044,
+              "longitude": 4.417748669445896
+            },
+            {
+              "latitude": 51.2174792864851,
+              "longitude": 4.41882192361968
+            },
+            {
+              "latitude": 51.21742522049671,
+              "longitude": 4.419136733528986
+            },
+            {
+              "latitude": 51.21734413865354,
+              "longitude": 4.41956601046939
+            },
+            {
+              "latitude": 51.21727208761341,
+              "longitude": 4.41989511078857
+            },
+            {
+              "latitude": 51.21723606489629,
+              "longitude": 4.420052504490935
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.21713711687537,
+              "longitude": 4.420224139705436
+            },
+            {
+              "latitude": 51.217065184423454,
+              "longitude": 4.420281307662225
+            },
+            {
+              "latitude": 51.21694830995286,
+              "longitude": 4.420338425057504
+            },
+            {
+              "latitude": 51.21678648712109,
+              "longitude": 4.4204098037401875
+            },
+            {
+              "latitude": 51.21672356199308,
+              "longitude": 4.42042404509945
+            },
+            {
+              "latitude": 51.21663366532341,
+              "longitude": 4.420452568098448
+            },
+            {
+              "latitude": 51.21662467692443,
+              "longitude": 4.420452557999499
+            },
+            {
+              "latitude": 51.216462892078845,
+              "longitude": 4.420438064304755
+            },
+            {
+              "latitude": 51.216346042881725,
+              "longitude": 4.4204379330555605
+            },
+            {
+              "latitude": 51.215905630258796,
+              "longitude": 4.420394503123043
+            },
+            {
+              "latitude": 51.21577080423226,
+              "longitude": 4.420394351809501
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 174,
+          "duurtijd": {
+            "start": "2019-03-09T14:15:00",
+            "einde": "2019-03-09T14:18:00",
+            "duurtijd": "P0DT0H3M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21577079155792,
+              "longitude": 4.42042297521339
+            },
+            {
+              "latitude": 51.21553709309515,
+              "longitude": 4.420422712795222
+            },
+            {
+              "latitude": 51.21541124277135,
+              "longitude": 4.42045119467742
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bestpassend": false,
+      "overstappen": 0,
+      "duurtijd": {
+        "start": "2019-03-09T13:57:00",
+        "einde": "2019-03-09T14:25:00",
+        "duurtijd": "P0DT0H28M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 618,
+          "duurtijd": {
+            "start": "2019-03-09T13:57:00",
+            "einde": "2019-03-09T14:07:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "101125",
+            "naam": "Antwerpen Bestorming",
+            "geoCoordinaat": {
+              "latitude": 51.20640399122187,
+              "longitude": 4.396717030896332
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.20637797100156,
+              "longitude": 4.392510220535035
+            },
+            {
+              "latitude": 51.206288068842866,
+              "longitude": 4.3925960261858075
+            },
+            {
+              "latitude": 51.206081346652645,
+              "longitude": 4.392538682503101
+            },
+            {
+              "latitude": 51.205802716910064,
+              "longitude": 4.392481301677609
+            },
+            {
+              "latitude": 51.20568587016086,
+              "longitude": 4.392466931884442
+            },
+            {
+              "latitude": 51.20568587606686,
+              "longitude": 4.39243831466364
+            },
+            {
+              "latitude": 51.20566789918873,
+              "longitude": 4.392438305267479
+            },
+            {
+              "latitude": 51.205622954040734,
+              "longitude": 4.3924525903682055
+            },
+            {
+              "latitude": 51.205551049477826,
+              "longitude": 4.392438244192602
+            },
+            {
+              "latitude": 51.2058205346619,
+              "longitude": 4.393239669630904
+            },
+            {
+              "latitude": 51.2059283438511,
+              "longitude": 4.393482975501725
+            },
+            {
+              "latitude": 51.206134934511915,
+              "longitude": 4.394141290601017
+            },
+            {
+              "latitude": 51.2063415344242,
+              "longitude": 4.394742376286315
+            },
+            {
+              "latitude": 51.206727759723385,
+              "longitude": 4.395944547509805
+            },
+            {
+              "latitude": 51.20694332158851,
+              "longitude": 4.396617199291076
+            },
+            {
+              "latitude": 51.20693431584674,
+              "longitude": 4.396688738753036
+            },
+            {
+              "latitude": 51.20697023832219,
+              "longitude": 4.396817541859292
+            },
+            {
+              "latitude": 51.20691628330336,
+              "longitude": 4.396917671519366
+            },
+            {
+              "latitude": 51.20686234920111,
+              "longitude": 4.396931947121854
+            },
+            {
+              "latitude": 51.206754484485934,
+              "longitude": 4.396946189289884
+            },
+            {
+              "latitude": 51.206754484485934,
+              "longitude": 4.396946189289884
+            },
+            {
+              "latitude": 51.206745496050814,
+              "longitude": 4.396946183722985
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206412986593165,
+              "longitude": 4.396688418752715
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "BUS",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "30",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "14",
+            "richting": "TERUG",
+            "omschrijving": "Hemiksem - Hoboken - Noorderplaats",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/14/lijnrichtingen/TERUG/rit/30?datum=2019-03-09T14:07:00"
+              }
+            ]
+          },
+          "afstand": 2088,
+          "duurtijd": {
+            "start": "2019-03-09T14:07:00",
+            "einde": "2019-03-09T14:16:00",
+            "duurtijd": "P0DT0H9M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "101125",
+            "naam": "Antwerpen Bestorming",
+            "geoCoordinaat": {
+              "latitude": 51.20640399122187,
+              "longitude": 4.396717030896332
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103290",
+            "naam": "Antwerpen Quellin",
+            "geoCoordinaat": {
+              "latitude": 51.217686862924744,
+              "longitude": 4.41681842804021
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103290/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103290/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103290/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103290/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103290/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20642197849435,
+              "longitude": 4.396674115433983
+            },
+            {
+              "latitude": 51.2066556291609,
+              "longitude": 4.396874583516229
+            },
+            {
+              "latitude": 51.20675449147638,
+              "longitude": 4.3969175714140745
+            },
+            {
+              "latitude": 51.20685336775337,
+              "longitude": 4.396903323621206
+            },
+            {
+              "latitude": 51.20694325907958,
+              "longitude": 4.396874761216195
+            },
+            {
+              "latitude": 51.20697022438283,
+              "longitude": 4.396874777875682
+            },
+            {
+              "latitude": 51.20703314691004,
+              "longitude": 4.396860507724494
+            },
+            {
+              "latitude": 51.207410383891585,
+              "longitude": 4.3979768536961314
+            },
+            {
+              "latitude": 51.20741936870175,
+              "longitude": 4.397991168603532
+            },
+            {
+              "latitude": 51.20773371342727,
+              "longitude": 4.398964398697462
+            },
+            {
+              "latitude": 51.2089011989041,
+              "longitude": 4.402614120058572
+            },
+            {
+              "latitude": 51.20891017896177,
+              "longitude": 4.402642745915603
+            },
+            {
+              "latitude": 51.20922448950951,
+              "longitude": 4.4036017287709255
+            },
+            {
+              "latitude": 51.21007755032882,
+              "longitude": 4.406292651407694
+            },
+            {
+              "latitude": 51.21016736959004,
+              "longitude": 4.406493064871758
+            },
+            {
+              "latitude": 51.210284149097454,
+              "longitude": 4.406707811465274
+            },
+            {
+              "latitude": 51.21102086786249,
+              "longitude": 4.4077101394813
+            },
+            {
+              "latitude": 51.21104782351777,
+              "longitude": 4.407738782915381
+            },
+            {
+              "latitude": 51.21121852640581,
+              "longitude": 4.407967893121828
+            },
+            {
+              "latitude": 51.211227509992675,
+              "longitude": 4.407982211122718
+            },
+            {
+              "latitude": 51.211703701444485,
+              "longitude": 4.4085550371445565
+            },
+            {
+              "latitude": 51.211811518257704,
+              "longitude": 4.408683925198789
+            },
+            {
+              "latitude": 51.21190137288559,
+              "longitude": 4.408769866591955
+            },
+            {
+              "latitude": 51.21197325061551,
+              "longitude": 4.408855792590519
+            },
+            {
+              "latitude": 51.212009179565115,
+              "longitude": 4.408927376787154
+            },
+            {
+              "latitude": 51.21202714649908,
+              "longitude": 4.408956013649569
+            },
+            {
+              "latitude": 51.21205409192993,
+              "longitude": 4.409013279547355
+            },
+            {
+              "latitude": 51.212090015815804,
+              "longitude": 4.409099174563198
+            },
+            {
+              "latitude": 51.21214392144761,
+              "longitude": 4.40917077497378
+            },
+            {
+              "latitude": 51.2123325883048,
+              "longitude": 4.409428533038384
+            },
+            {
+              "latitude": 51.213779036052024,
+              "longitude": 4.41134750311932
+            },
+            {
+              "latitude": 51.21378801397766,
+              "longitude": 4.411376133651949
+            },
+            {
+              "latitude": 51.21398565903845,
+              "longitude": 4.411648229279387
+            },
+            {
+              "latitude": 51.214812164843046,
+              "longitude": 4.41279391493323
+            },
+            {
+              "latitude": 51.21483910838545,
+              "longitude": 4.412851186468415
+            },
+            {
+              "latitude": 51.21485705263209,
+              "longitude": 4.412937072270248
+            },
+            {
+              "latitude": 51.21489295184135,
+              "longitude": 4.413080221205251
+            },
+            {
+              "latitude": 51.21491087406565,
+              "longitude": 4.413223352950248
+            },
+            {
+              "latitude": 51.21491984058792,
+              "longitude": 4.413280607422298
+            },
+            {
+              "latitude": 51.21509053797835,
+              "longitude": 4.4134954454426945
+            },
+            {
+              "latitude": 51.2155846453535,
+              "longitude": 4.414154262822219
+            },
+            {
+              "latitude": 51.215548669406544,
+              "longitude": 4.414211473821571
+            },
+            {
+              "latitude": 51.21495501654633,
+              "longitude": 4.415269934184935
+            },
+            {
+              "latitude": 51.21497298192316,
+              "longitude": 4.415298575299825
+            },
+            {
+              "latitude": 51.21491001728185,
+              "longitude": 4.415413003071137
+            },
+            {
+              "latitude": 51.21490102314309,
+              "longitude": 4.415427305379576
+            },
+            {
+              "latitude": 51.214963901798995,
+              "longitude": 4.415527549474354
+            },
+            {
+              "latitude": 51.2150178092308,
+              "longitude": 4.415584850256346
+            },
+            {
+              "latitude": 51.215035774530904,
+              "longitude": 4.415613491531117
+            },
+            {
+              "latitude": 51.215125629773915,
+              "longitude": 4.415685140713192
+            },
+            {
+              "latitude": 51.21522447914788,
+              "longitude": 4.415742487830047
+            },
+            {
+              "latitude": 51.21546712560383,
+              "longitude": 4.415842917248553
+            },
+            {
+              "latitude": 51.216923007921665,
+              "longitude": 4.416431203651949
+            },
+            {
+              "latitude": 51.21769588081142,
+              "longitude": 4.416746875972642
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 542,
+          "duurtijd": {
+            "start": "2019-03-09T14:16:00",
+            "einde": "2019-03-09T14:25:00",
+            "duurtijd": "P0DT0H9M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103290",
+            "naam": "Antwerpen Quellin",
+            "geoCoordinaat": {
+              "latitude": 51.217686862924744,
+              "longitude": 4.41681842804021
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.217686874726375,
+              "longitude": 4.416789803459235
+            },
+            {
+              "latitude": 51.2177497875947,
+              "longitude": 4.416804181521303
+            },
+            {
+              "latitude": 51.21768669102209,
+              "longitude": 4.417233484462679
+            },
+            {
+              "latitude": 51.2176235868835,
+              "longitude": 4.417677098513205
+            },
+            {
+              "latitude": 51.217291070207885,
+              "longitude": 4.41754793512085
+            },
+            {
+              "latitude": 51.21730001062242,
+              "longitude": 4.417662442033317
+            },
+            {
+              "latitude": 51.217039135874586,
+              "longitude": 4.418163087962474
+            },
+            {
+              "latitude": 51.21691320103632,
+              "longitude": 4.418391945600213
+            },
+            {
+              "latitude": 51.21676927670665,
+              "longitude": 4.418649406527285
+            },
+            {
+              "latitude": 51.21650841009165,
+              "longitude": 4.419121417380108
+            },
+            {
+              "latitude": 51.21640946339428,
+              "longitude": 4.4192930518920805
+            },
+            {
+              "latitude": 51.2163015467046,
+              "longitude": 4.4194217401723455
+            },
+            {
+              "latitude": 51.21616665219838,
+              "longitude": 4.419579021729211
+            },
+            {
+              "latitude": 51.215735002175336,
+              "longitude": 4.420050830876288
+            },
+            {
+              "latitude": 51.215636085650345,
+              "longitude": 4.42015090226656
+            },
+            {
+              "latitude": 51.215555152159645,
+              "longitude": 4.42023668171623
+            },
+            {
+              "latitude": 51.21548320067961,
+              "longitude": 4.4203367825554745
+            },
+            {
+              "latitude": 51.21547420594726,
+              "longitude": 4.420351084090027
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bestpassend": false,
+      "overstappen": 0,
+      "duurtijd": {
+        "start": "2019-03-09T14:00:00",
+        "einde": "2019-03-09T14:32:00",
+        "duurtijd": "P0DT0H32M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 618,
+          "duurtijd": {
+            "start": "2019-03-09T14:00:00",
+            "einde": "2019-03-09T14:10:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "101125",
+            "naam": "Antwerpen Bestorming",
+            "geoCoordinaat": {
+              "latitude": 51.20640399122187,
+              "longitude": 4.396717030896332
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.20637797100156,
+              "longitude": 4.392510220535035
+            },
+            {
+              "latitude": 51.206288068842866,
+              "longitude": 4.3925960261858075
+            },
+            {
+              "latitude": 51.206081346652645,
+              "longitude": 4.392538682503101
+            },
+            {
+              "latitude": 51.205802716910064,
+              "longitude": 4.392481301677609
+            },
+            {
+              "latitude": 51.20568587016086,
+              "longitude": 4.392466931884442
+            },
+            {
+              "latitude": 51.20568587606686,
+              "longitude": 4.39243831466364
+            },
+            {
+              "latitude": 51.20566789918873,
+              "longitude": 4.392438305267479
+            },
+            {
+              "latitude": 51.205622954040734,
+              "longitude": 4.3924525903682055
+            },
+            {
+              "latitude": 51.205551049477826,
+              "longitude": 4.392438244192602
+            },
+            {
+              "latitude": 51.2058205346619,
+              "longitude": 4.393239669630904
+            },
+            {
+              "latitude": 51.2059283438511,
+              "longitude": 4.393482975501725
+            },
+            {
+              "latitude": 51.206134934511915,
+              "longitude": 4.394141290601017
+            },
+            {
+              "latitude": 51.2063415344242,
+              "longitude": 4.394742376286315
+            },
+            {
+              "latitude": 51.206727759723385,
+              "longitude": 4.395944547509805
+            },
+            {
+              "latitude": 51.20694332158851,
+              "longitude": 4.396617199291076
+            },
+            {
+              "latitude": 51.20693431584674,
+              "longitude": 4.396688738753036
+            },
+            {
+              "latitude": 51.20697023832219,
+              "longitude": 4.396817541859292
+            },
+            {
+              "latitude": 51.20691628330336,
+              "longitude": 4.396917671519366
+            },
+            {
+              "latitude": 51.20686234920111,
+              "longitude": 4.396931947121854
+            },
+            {
+              "latitude": 51.206754484485934,
+              "longitude": 4.396946189289884
+            },
+            {
+              "latitude": 51.206754484485934,
+              "longitude": 4.396946189289884
+            },
+            {
+              "latitude": 51.206745496050814,
+              "longitude": 4.396946183722985
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206646633745365,
+              "longitude": 4.396903195772784
+            },
+            {
+              "latitude": 51.206412986593165,
+              "longitude": 4.396688418752715
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "103",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "10",
+            "richting": "HEEN",
+            "omschrijving": "P+R Schoonselhof - Wijnegem",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/10/lijnrichtingen/HEEN/rit/103?datum=2019-03-09T14:10:00"
+              }
+            ]
+          },
+          "afstand": 2431,
+          "duurtijd": {
+            "start": "2019-03-09T14:10:00",
+            "einde": "2019-03-09T14:22:00",
+            "duurtijd": "P0DT0H12M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "101125",
+            "naam": "Antwerpen Bestorming",
+            "geoCoordinaat": {
+              "latitude": 51.20640399122187,
+              "longitude": 4.396717030896332
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101125/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103397",
+            "naam": "Antwerpen Astrid Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20642197849435,
+              "longitude": 4.396674115433983
+            },
+            {
+              "latitude": 51.2066556291609,
+              "longitude": 4.396874583516229
+            },
+            {
+              "latitude": 51.20675449147638,
+              "longitude": 4.3969175714140745
+            },
+            {
+              "latitude": 51.20685336775337,
+              "longitude": 4.396903323621206
+            },
+            {
+              "latitude": 51.20694325907958,
+              "longitude": 4.396874761216195
+            },
+            {
+              "latitude": 51.20697022438283,
+              "longitude": 4.396874777875682
+            },
+            {
+              "latitude": 51.20703314691004,
+              "longitude": 4.396860507724494
+            },
+            {
+              "latitude": 51.207410383891585,
+              "longitude": 4.3979768536961314
+            },
+            {
+              "latitude": 51.20741936870175,
+              "longitude": 4.397991168603532
+            },
+            {
+              "latitude": 51.20773371342727,
+              "longitude": 4.398964398697462
+            },
+            {
+              "latitude": 51.2089011989041,
+              "longitude": 4.402614120058572
+            },
+            {
+              "latitude": 51.20891017896177,
+              "longitude": 4.402642745915603
+            },
+            {
+              "latitude": 51.20922448950951,
+              "longitude": 4.4036017287709255
+            },
+            {
+              "latitude": 51.21007755032882,
+              "longitude": 4.406292651407694
+            },
+            {
+              "latitude": 51.21016736959004,
+              "longitude": 4.406493064871758
+            },
+            {
+              "latitude": 51.210284149097454,
+              "longitude": 4.406707811465274
+            },
+            {
+              "latitude": 51.21102086786249,
+              "longitude": 4.4077101394813
+            },
+            {
+              "latitude": 51.21104782351777,
+              "longitude": 4.407738782915381
+            },
+            {
+              "latitude": 51.21121852640581,
+              "longitude": 4.407967893121828
+            },
+            {
+              "latitude": 51.211227509992675,
+              "longitude": 4.407982211122718
+            },
+            {
+              "latitude": 51.211703701444485,
+              "longitude": 4.4085550371445565
+            },
+            {
+              "latitude": 51.211811518257704,
+              "longitude": 4.408683925198789
+            },
+            {
+              "latitude": 51.21190137288559,
+              "longitude": 4.408769866591955
+            },
+            {
+              "latitude": 51.21197325061551,
+              "longitude": 4.408855792590519
+            },
+            {
+              "latitude": 51.212009179565115,
+              "longitude": 4.408927376787154
+            },
+            {
+              "latitude": 51.21202714649908,
+              "longitude": 4.408956013649569
+            },
+            {
+              "latitude": 51.21205409192993,
+              "longitude": 4.409013279547355
+            },
+            {
+              "latitude": 51.212090015815804,
+              "longitude": 4.409099174563198
+            },
+            {
+              "latitude": 51.21214392144761,
+              "longitude": 4.40917077497378
+            },
+            {
+              "latitude": 51.2123325883048,
+              "longitude": 4.409428533038384
+            },
+            {
+              "latitude": 51.213779036052024,
+              "longitude": 4.41134750311932
+            },
+            {
+              "latitude": 51.21378801397766,
+              "longitude": 4.411376133651949
+            },
+            {
+              "latitude": 51.21398565903845,
+              "longitude": 4.411648229279387
+            },
+            {
+              "latitude": 51.214695380422285,
+              "longitude": 4.412622066367668
+            },
+            {
+              "latitude": 51.214812164843046,
+              "longitude": 4.41279391493323
+            },
+            {
+              "latitude": 51.214839119226596,
+              "longitude": 4.412822563634446
+            },
+            {
+              "latitude": 51.21484809679133,
+              "longitude": 4.412851195101867
+            },
+            {
+              "latitude": 51.2148750348755,
+              "longitude": 4.412922778142274
+            },
+            {
+              "latitude": 51.214901940246996,
+              "longitude": 4.413080229882858
+            },
+            {
+              "latitude": 51.21492884540855,
+              "longitude": 4.413237681805124
+            },
+            {
+              "latitude": 51.2149827758412,
+              "longitude": 4.41323773405295
+            },
+            {
+              "latitude": 51.2149827594261,
+              "longitude": 4.41328066843601
+            },
+            {
+              "latitude": 51.215171504979274,
+              "longitude": 4.41330947451602
+            },
+            {
+              "latitude": 51.21528832682678,
+              "longitude": 4.413381145674218
+            },
+            {
+              "latitude": 51.215800372599624,
+              "longitude": 4.414140164345423
+            },
+            {
+              "latitude": 51.215827404622146,
+              "longitude": 4.413968450350127
+            },
+            {
+              "latitude": 51.21580043385661,
+              "longitude": 4.413982735515065
+            },
+            {
+              "latitude": 51.21562059896593,
+              "longitude": 4.414154298361252
+            },
+            {
+              "latitude": 51.21576437989891,
+              "longitude": 4.4142403107226444
+            },
+            {
+              "latitude": 51.21579134510636,
+              "longitude": 4.414240337426774
+            },
+            {
+              "latitude": 51.21605194155293,
+              "longitude": 4.4144123370366195
+            },
+            {
+              "latitude": 51.21605193032688,
+              "longitude": 4.414440960614624
+            },
+            {
+              "latitude": 51.21636644558331,
+              "longitude": 4.414641639917658
+            },
+            {
+              "latitude": 51.216986486560124,
+              "longitude": 4.415042997588466
+            },
+            {
+              "latitude": 51.21792103938611,
+              "longitude": 4.4156450586938245
+            },
+            {
+              "latitude": 51.21793901617574,
+              "longitude": 4.415645077038952
+            },
+            {
+              "latitude": 51.21818165090824,
+              "longitude": 4.415774136682037
+            },
+            {
+              "latitude": 51.21825354072233,
+              "longitude": 4.415817147655729
+            },
+            {
+              "latitude": 51.21845125644675,
+              "longitude": 4.415888912810274
+            },
+            {
+              "latitude": 51.21853214039857,
+              "longitude": 4.41591762088754
+            },
+            {
+              "latitude": 51.21869391987108,
+              "longitude": 4.415946412141482
+            },
+            {
+              "latitude": 51.21876580960808,
+              "longitude": 4.415989423853287
+            },
+            {
+              "latitude": 51.21885566449225,
+              "longitude": 4.4160610794911985
+            },
+            {
+              "latitude": 51.21886464707201,
+              "longitude": 4.416075401396219
+            },
+            {
+              "latitude": 51.21912524636814,
+              "longitude": 4.416233109865769
+            },
+            {
+              "latitude": 51.219116217113225,
+              "longitude": 4.416333289684533
+            },
+            {
+              "latitude": 51.21921500742421,
+              "longitude": 4.416533770679009
+            },
+            {
+              "latitude": 51.21929582650316,
+              "longitude": 4.416719920973046
+            },
+            {
+              "latitude": 51.21936762730936,
+              "longitude": 4.416977626528219
+            },
+            {
+              "latitude": 51.21951132275633,
+              "longitude": 4.417264034413227
+            },
+            {
+              "latitude": 51.21948429196257,
+              "longitude": 4.4174214472217095
+            },
+            {
+              "latitude": 51.219475291618785,
+              "longitude": 4.417450063385096
+            },
+            {
+              "latitude": 51.2194662733128,
+              "longitude": 4.417521618047119
+            },
+            {
+              "latitude": 51.219421205242966,
+              "longitude": 4.417822139651362
+            },
+            {
+              "latitude": 51.21943918202168,
+              "longitude": 4.417822158836403
+            },
+            {
+              "latitude": 51.21949326241731,
+              "longitude": 4.417464395271565
+            },
+            {
+              "latitude": 51.21959212273126,
+              "longitude": 4.417493125781464
+            },
+            {
+              "latitude": 51.219456904261556,
+              "longitude": 4.418423317034389
+            },
+            {
+              "latitude": 51.21944790367519,
+              "longitude": 4.418451932987582
+            },
+            {
+              "latitude": 51.21928565649945,
+              "longitude": 4.419510903931209
+            },
+            {
+              "latitude": 51.21918679043812,
+              "longitude": 4.419496482082766
+            },
+            {
+              "latitude": 51.219294966428066,
+              "longitude": 4.418766649096215
+            },
+            {
+              "latitude": 51.21934904358864,
+              "longitude": 4.418423200533772
+            },
+            {
+              "latitude": 51.21944790367519,
+              "longitude": 4.418451932987582
+            },
+            {
+              "latitude": 51.21928565649945,
+              "longitude": 4.419510903931209
+            },
+            {
+              "latitude": 51.21927666188034,
+              "longitude": 4.419525206791288
+            },
+            {
+              "latitude": 51.21918650217492,
+              "longitude": 4.420154868602092
+            },
+            {
+              "latitude": 51.219105378509234,
+              "longitude": 4.42067003633862
+            },
+            {
+              "latitude": 51.21901549460502,
+              "longitude": 4.420669934924713
+            },
+            {
+              "latitude": 51.21900650621439,
+              "longitude": 4.420669924783342
+            },
+            {
+              "latitude": 51.21897953467277,
+              "longitude": 4.42068420704599
+            },
+            {
+              "latitude": 51.21894354923545,
+              "longitude": 4.420755729847992
+            },
+            {
+              "latitude": 51.218907563754385,
+              "longitude": 4.420827252539603
+            },
+            {
+              "latitude": 51.21888054102074,
+              "longitude": 4.420956035931541
+            },
+            {
+              "latitude": 51.218844484779865,
+              "longitude": 4.421184997469471
+            },
+            {
+              "latitude": 51.218853466738985,
+              "longitude": 4.4211993203580535
+            },
+            {
+              "latitude": 51.218835419090276,
+              "longitude": 4.421356738937977
+            },
+            {
+              "latitude": 51.21884434934385,
+              "longitude": 4.42148556301799
+            },
+            {
+              "latitude": 51.21889820844226,
+              "longitude": 4.421643064087612
+            },
+            {
+              "latitude": 51.21891617873655,
+              "longitude": 4.421657397412621
+            },
+            {
+              "latitude": 51.21890725514233,
+              "longitude": 4.421514260436828
+            },
+            {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 602,
+          "duurtijd": {
+            "start": "2019-03-09T14:22:00",
+            "einde": "2019-03-09T14:32:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103397",
+            "naam": "Antwerpen Astrid Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.218916269403344,
+              "longitude": 4.421457020072142
+            },
+            {
+              "latitude": 51.21891628878777,
+              "longitude": 4.42141408207051
+            },
+            {
+              "latitude": 51.21901547549083,
+              "longitude": 4.420712873018005
+            },
+            {
+              "latitude": 51.21897955377653,
+              "longitude": 4.420641268985778
+            },
+            {
+              "latitude": 51.21839530831361,
+              "longitude": 4.420640610164626
+            },
+            {
+              "latitude": 51.218017821236515,
+              "longitude": 4.420582934907415
+            },
+            {
+              "latitude": 51.21796389722873,
+              "longitude": 4.420568561786183
+            },
+            {
+              "latitude": 51.21777514094171,
+              "longitude": 4.42056834923345
+            },
+            {
+              "latitude": 51.21777514094171,
+              "longitude": 4.42056834923345
+            },
+            {
+              "latitude": 51.21776614618939,
+              "longitude": 4.420582651426254
+            },
+            {
+              "latitude": 51.21762230641896,
+              "longitude": 4.420639738519073
+            },
+            {
+              "latitude": 51.217586327362376,
+              "longitude": 4.420696947014599
+            },
+            {
+              "latitude": 51.217146092639474,
+              "longitude": 4.420252774008586
+            },
+            {
+              "latitude": 51.21707416017394,
+              "longitude": 4.420309941932205
+            },
+            {
+              "latitude": 51.216795462841446,
+              "longitude": 4.420438437863769
+            },
+            {
+              "latitude": 51.21664264103396,
+              "longitude": 4.42048120213642
+            },
+            {
+              "latitude": 51.21664264103396,
+              "longitude": 4.42048120213642
+            },
+            {
+              "latitude": 51.21663365263499,
+              "longitude": 4.420481192031953
+            },
+            {
+              "latitude": 51.21634603019685,
+              "longitude": 4.420466556812523
+            },
+            {
+              "latitude": 51.21590561758443,
+              "longitude": 4.420423126609691
+            },
+            {
+              "latitude": 51.21553709309515,
+              "longitude": 4.420422712795222
+            },
+            {
+              "latitude": 51.21541124277135,
+              "longitude": 4.42045119467742
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bestpassend": false,
+      "overstappen": 0,
+      "duurtijd": {
+        "start": "2019-03-09T14:05:00",
+        "einde": "2019-03-09T14:38:00",
+        "duurtijd": "P0DT0H33M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 620,
+          "duurtijd": {
+            "start": "2019-03-09T14:05:00",
+            "einde": "2019-03-09T14:15:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "101460",
+            "naam": "Antwerpen Bolivarplaats",
+            "geoCoordinaat": {
+              "latitude": 51.20326856896245,
+              "longitude": 4.389418090606857
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.206881540531256,
+              "longitude": 4.391437311120831
+            },
+            {
+              "latitude": 51.20684559809784,
+              "longitude": 4.391380057234684
+            },
+            {
+              "latitude": 51.20679168720667,
+              "longitude": 4.391279867621205
+            },
+            {
+              "latitude": 51.20679169001683,
+              "longitude": 4.391265558671498
+            },
+            {
+              "latitude": 51.20679169001683,
+              "longitude": 4.391265558671498
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.20675580873176,
+              "longitude": 4.390893508376474
+            },
+            {
+              "latitude": 51.20675581149516,
+              "longitude": 4.390879199437746
+            },
+            {
+              "latitude": 51.2067558142568,
+              "longitude": 4.39086489049902
+            },
+            {
+              "latitude": 51.206791792775014,
+              "longitude": 4.390736127531065
+            },
+            {
+              "latitude": 51.20631551140735,
+              "longitude": 4.390177852571621
+            },
+            {
+              "latitude": 51.206189699976804,
+              "longitude": 4.390034705245217
+            },
+            {
+              "latitude": 51.20611780044989,
+              "longitude": 4.389991745136567
+            },
+            {
+              "latitude": 51.20589309745692,
+              "longitude": 4.389948713448262
+            },
+            {
+              "latitude": 51.20545259175977,
+              "longitude": 4.390334837304143
+            },
+            {
+              "latitude": 51.205407644163024,
+              "longitude": 4.390363432890971
+            },
+            {
+              "latitude": 51.20523683942495,
+              "longitude": 4.390492127480198
+            },
+            {
+              "latitude": 51.205146952300105,
+              "longitude": 4.390506392695471
+            },
+            {
+              "latitude": 51.204634909637356,
+              "longitude": 4.3888750012837
+            },
+            {
+              "latitude": 51.204589959855326,
+              "longitude": 4.388917906050413
+            },
+            {
+              "latitude": 51.20452703317061,
+              "longitude": 4.388960802678734
+            },
+            {
+              "latitude": 51.20448208335554,
+              "longitude": 4.389003707263536
+            },
+            {
+              "latitude": 51.20444612450747,
+              "longitude": 4.389032307579719
+            },
+            {
+              "latitude": 51.204374206789,
+              "longitude": 4.389089508079795
+            },
+            {
+              "latitude": 51.20429329804321,
+              "longitude": 4.389161012523259
+            },
+            {
+              "latitude": 51.20425733915441,
+              "longitude": 4.389189612602423
+            },
+            {
+              "latitude": 51.20415845345552,
+              "longitude": 4.389261108521731
+            },
+            {
+              "latitude": 51.20415845345552,
+              "longitude": 4.389261108521731
+            },
+            {
+              "latitude": 51.20414946501104,
+              "longitude": 4.389261104436047
+            },
+            {
+              "latitude": 51.2041045176514,
+              "longitude": 4.38928970025867
+            },
+            {
+              "latitude": 51.20403260752217,
+              "longitude": 4.389303975632663
+            },
+            {
+              "latitude": 51.20402361907725,
+              "longitude": 4.389303971538732
+            },
+            {
+              "latitude": 51.20402361907725,
+              "longitude": 4.389303971538732
+            },
+            {
+              "latitude": 51.20393373462631,
+              "longitude": 4.389303930599499
+            },
+            {
+              "latitude": 51.203924746181045,
+              "longitude": 4.389303926505584
+            },
+            {
+              "latitude": 51.203924746181045,
+              "longitude": 4.389303926505584
+            },
+            {
+              "latitude": 51.20382588355448,
+              "longitude": 4.389246649312486
+            },
+            {
+              "latitude": 51.203727018337574,
+              "longitude": 4.389203680371899
+            },
+            {
+              "latitude": 51.203601180090885,
+              "longitude": 4.389203623327951
+            },
+            {
+              "latitude": 51.20352927251861,
+              "longitude": 4.389203590731552
+            },
+            {
+              "latitude": 51.203439377797885,
+              "longitude": 4.3892607816721405
+            },
+            {
+              "latitude": 51.20332249188251,
+              "longitude": 4.38946103895887
+            },
+            {
+              "latitude": 51.20331350343511,
+              "longitude": 4.389461034834737
+            },
+            {
+              "latitude": 51.20330451239599,
+              "longitude": 4.389475338590709
+            },
+            {
+              "latitude": 51.203286532907626,
+              "longitude": 4.389489638211525
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "97",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "8",
+            "richting": "HEEN",
+            "omschrijving": "Zuid - P+R Wommelgem",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/rit/97?datum=2019-03-09T14:15:00"
+              }
+            ]
+          },
+          "afstand": 3115,
+          "duurtijd": {
+            "start": "2019-03-09T14:15:00",
+            "einde": "2019-03-09T14:28:00",
+            "duurtijd": "P0DT0H13M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "101460",
+            "naam": "Antwerpen Bolivarplaats",
+            "geoCoordinaat": {
+              "latitude": 51.20326856896245,
+              "longitude": 4.389418090606857
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103397",
+            "naam": "Antwerpen Astrid Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20326856637595,
+              "longitude": 4.389432398475938
+            },
+            {
+              "latitude": 51.203295534304985,
+              "longitude": 4.3894181029544255
+            },
+            {
+              "latitude": 51.203421408595894,
+              "longitude": 4.389217849753115
+            },
+            {
+              "latitude": 51.20352029174317,
+              "longitude": 4.389160662818091
+            },
+            {
+              "latitude": 51.20359220186933,
+              "longitude": 4.3891463873799434
+            },
+            {
+              "latitude": 51.20373601445482,
+              "longitude": 4.38916076040905
+            },
+            {
+              "latitude": 51.20383488224583,
+              "longitude": 4.389189421224154
+            },
+            {
+              "latitude": 51.20393374489976,
+              "longitude": 4.389246698307011
+            },
+            {
+              "latitude": 51.20402362678496,
+              "longitude": 4.389261047236654
+            },
+            {
+              "latitude": 51.204095539473286,
+              "longitude": 4.389232463676476
+            },
+            {
+              "latitude": 51.20414048425866,
+              "longitude": 4.389218175940745
+            },
+            {
+              "latitude": 51.204239369932274,
+              "longitude": 4.389146679957965
+            },
+            {
+              "latitude": 51.20431128768216,
+              "longitude": 4.389089479711384
+            },
+            {
+              "latitude": 51.204562821457024,
+              "longitude": 4.389876547820998
+            },
+            {
+              "latitude": 51.20484129609517,
+              "longitude": 4.39076379594716
+            },
+            {
+              "latitude": 51.20502097047744,
+              "longitude": 4.39125036927618
+            },
+            {
+              "latitude": 51.20514674647061,
+              "longitude": 4.391565217635749
+            },
+            {
+              "latitude": 51.20522761961786,
+              "longitude": 4.3916797261629
+            },
+            {
+              "latitude": 51.20527254463301,
+              "longitude": 4.39176559982413
+            },
+            {
+              "latitude": 51.2054701741373,
+              "longitude": 4.392338042100543
+            },
+            {
+              "latitude": 51.20551510751068,
+              "longitude": 4.392380991168328
+            },
+            {
+              "latitude": 51.20562296289189,
+              "longitude": 4.392409664594897
+            },
+            {
+              "latitude": 51.20587447138561,
+              "longitude": 4.393211081409663
+            },
+            {
+              "latitude": 51.20702416544558,
+              "longitude": 4.396831884132787
+            },
+            {
+              "latitude": 51.20703314691004,
+              "longitude": 4.396860507724494
+            },
+            {
+              "latitude": 51.207410383891585,
+              "longitude": 4.3979768536961314
+            },
+            {
+              "latitude": 51.20741936870175,
+              "longitude": 4.397991168603532
+            },
+            {
+              "latitude": 51.20773371342727,
+              "longitude": 4.398964398697462
+            },
+            {
+              "latitude": 51.2089011989041,
+              "longitude": 4.402614120058572
+            },
+            {
+              "latitude": 51.20891017896177,
+              "longitude": 4.402642745915603
+            },
+            {
+              "latitude": 51.20922448950951,
+              "longitude": 4.4036017287709255
+            },
+            {
+              "latitude": 51.21007755032882,
+              "longitude": 4.406292651407694
+            },
+            {
+              "latitude": 51.21016736959004,
+              "longitude": 4.406493064871758
+            },
+            {
+              "latitude": 51.210284149097454,
+              "longitude": 4.406707811465274
+            },
+            {
+              "latitude": 51.21102086786249,
+              "longitude": 4.4077101394813
+            },
+            {
+              "latitude": 51.21104782351777,
+              "longitude": 4.407738782915381
+            },
+            {
+              "latitude": 51.21121852640581,
+              "longitude": 4.407967893121828
+            },
+            {
+              "latitude": 51.211227509992675,
+              "longitude": 4.407982211122718
+            },
+            {
+              "latitude": 51.211703701444485,
+              "longitude": 4.4085550371445565
+            },
+            {
+              "latitude": 51.211811518257704,
+              "longitude": 4.408683925198789
+            },
+            {
+              "latitude": 51.21190137288559,
+              "longitude": 4.408769866591955
+            },
+            {
+              "latitude": 51.21197325061551,
+              "longitude": 4.408855792590519
+            },
+            {
+              "latitude": 51.212009179565115,
+              "longitude": 4.408927376787154
+            },
+            {
+              "latitude": 51.21202714649908,
+              "longitude": 4.408956013649569
+            },
+            {
+              "latitude": 51.21205409192993,
+              "longitude": 4.409013279547355
+            },
+            {
+              "latitude": 51.212090015815804,
+              "longitude": 4.409099174563198
+            },
+            {
+              "latitude": 51.21214392144761,
+              "longitude": 4.40917077497378
+            },
+            {
+              "latitude": 51.2123325883048,
+              "longitude": 4.409428533038384
+            },
+            {
+              "latitude": 51.213779036052024,
+              "longitude": 4.41134750311932
+            },
+            {
+              "latitude": 51.21378801397766,
+              "longitude": 4.411376133651949
+            },
+            {
+              "latitude": 51.21398565903845,
+              "longitude": 4.411648229279387
+            },
+            {
+              "latitude": 51.214695380422285,
+              "longitude": 4.412622066367668
+            },
+            {
+              "latitude": 51.214812164843046,
+              "longitude": 4.41279391493323
+            },
+            {
+              "latitude": 51.214839119226596,
+              "longitude": 4.412822563634446
+            },
+            {
+              "latitude": 51.21484809679133,
+              "longitude": 4.412851195101867
+            },
+            {
+              "latitude": 51.2148750348755,
+              "longitude": 4.412922778142274
+            },
+            {
+              "latitude": 51.214901940246996,
+              "longitude": 4.413080229882858
+            },
+            {
+              "latitude": 51.21492884540855,
+              "longitude": 4.413237681805124
+            },
+            {
+              "latitude": 51.2149827758412,
+              "longitude": 4.41323773405295
+            },
+            {
+              "latitude": 51.2149827594261,
+              "longitude": 4.41328066843601
+            },
+            {
+              "latitude": 51.215171504979274,
+              "longitude": 4.41330947451602
+            },
+            {
+              "latitude": 51.21528832682678,
+              "longitude": 4.413381145674218
+            },
+            {
+              "latitude": 51.215800372599624,
+              "longitude": 4.414140164345423
+            },
+            {
+              "latitude": 51.215827404622146,
+              "longitude": 4.413968450350127
+            },
+            {
+              "latitude": 51.21580043385661,
+              "longitude": 4.413982735515065
+            },
+            {
+              "latitude": 51.21562059896593,
+              "longitude": 4.414154298361252
+            },
+            {
+              "latitude": 51.21576437989891,
+              "longitude": 4.4142403107226444
+            },
+            {
+              "latitude": 51.21579134510636,
+              "longitude": 4.414240337426774
+            },
+            {
+              "latitude": 51.21605194155293,
+              "longitude": 4.4144123370366195
+            },
+            {
+              "latitude": 51.21605193032688,
+              "longitude": 4.414440960614624
+            },
+            {
+              "latitude": 51.21636644558331,
+              "longitude": 4.414641639917658
+            },
+            {
+              "latitude": 51.216986486560124,
+              "longitude": 4.415042997588466
+            },
+            {
+              "latitude": 51.21792103938611,
+              "longitude": 4.4156450586938245
+            },
+            {
+              "latitude": 51.21793901617574,
+              "longitude": 4.415645077038952
+            },
+            {
+              "latitude": 51.21818165090824,
+              "longitude": 4.415774136682037
+            },
+            {
+              "latitude": 51.21825354072233,
+              "longitude": 4.415817147655729
+            },
+            {
+              "latitude": 51.21845125644675,
+              "longitude": 4.415888912810274
+            },
+            {
+              "latitude": 51.21853214039857,
+              "longitude": 4.41591762088754
+            },
+            {
+              "latitude": 51.21869391987108,
+              "longitude": 4.415946412141482
+            },
+            {
+              "latitude": 51.21876580960808,
+              "longitude": 4.415989423853287
+            },
+            {
+              "latitude": 51.21885566449225,
+              "longitude": 4.4160610794911985
+            },
+            {
+              "latitude": 51.21886464707201,
+              "longitude": 4.416075401396219
+            },
+            {
+              "latitude": 51.21912524636814,
+              "longitude": 4.416233109865769
+            },
+            {
+              "latitude": 51.219116217113225,
+              "longitude": 4.416333289684533
+            },
+            {
+              "latitude": 51.21921500742421,
+              "longitude": 4.416533770679009
+            },
+            {
+              "latitude": 51.21929582650316,
+              "longitude": 4.416719920973046
+            },
+            {
+              "latitude": 51.21936762730936,
+              "longitude": 4.416977626528219
+            },
+            {
+              "latitude": 51.21951132275633,
+              "longitude": 4.417264034413227
+            },
+            {
+              "latitude": 51.21948429196257,
+              "longitude": 4.4174214472217095
+            },
+            {
+              "latitude": 51.219475291618785,
+              "longitude": 4.417450063385096
+            },
+            {
+              "latitude": 51.2194662733128,
+              "longitude": 4.417521618047119
+            },
+            {
+              "latitude": 51.219421205242966,
+              "longitude": 4.417822139651362
+            },
+            {
+              "latitude": 51.21943918202168,
+              "longitude": 4.417822158836403
+            },
+            {
+              "latitude": 51.21949326241731,
+              "longitude": 4.417464395271565
+            },
+            {
+              "latitude": 51.21959212273126,
+              "longitude": 4.417493125781464
+            },
+            {
+              "latitude": 51.219456904261556,
+              "longitude": 4.418423317034389
+            },
+            {
+              "latitude": 51.21944790367519,
+              "longitude": 4.418451932987582
+            },
+            {
+              "latitude": 51.21928565649945,
+              "longitude": 4.419510903931209
+            },
+            {
+              "latitude": 51.21918679043812,
+              "longitude": 4.419496482082766
+            },
+            {
+              "latitude": 51.219294966428066,
+              "longitude": 4.418766649096215
+            },
+            {
+              "latitude": 51.21934904358864,
+              "longitude": 4.418423200533772
+            },
+            {
+              "latitude": 51.21944790367519,
+              "longitude": 4.418451932987582
+            },
+            {
+              "latitude": 51.21928565649945,
+              "longitude": 4.419510903931209
+            },
+            {
+              "latitude": 51.21927666188034,
+              "longitude": 4.419525206791288
+            },
+            {
+              "latitude": 51.21918650217492,
+              "longitude": 4.420154868602092
+            },
+            {
+              "latitude": 51.219105378509234,
+              "longitude": 4.42067003633862
+            },
+            {
+              "latitude": 51.21901549460502,
+              "longitude": 4.420669934924713
+            },
+            {
+              "latitude": 51.21900650621439,
+              "longitude": 4.420669924783342
+            },
+            {
+              "latitude": 51.21897953467277,
+              "longitude": 4.42068420704599
+            },
+            {
+              "latitude": 51.21894354923545,
+              "longitude": 4.420755729847992
+            },
+            {
+              "latitude": 51.218907563754385,
+              "longitude": 4.420827252539603
+            },
+            {
+              "latitude": 51.21888054102074,
+              "longitude": 4.420956035931541
+            },
+            {
+              "latitude": 51.218844484779865,
+              "longitude": 4.421184997469471
+            },
+            {
+              "latitude": 51.218853466738985,
+              "longitude": 4.4211993203580535
+            },
+            {
+              "latitude": 51.218835419090276,
+              "longitude": 4.421356738937977
+            },
+            {
+              "latitude": 51.21884434934385,
+              "longitude": 4.42148556301799
+            },
+            {
+              "latitude": 51.21889820844226,
+              "longitude": 4.421643064087612
+            },
+            {
+              "latitude": 51.21891617873655,
+              "longitude": 4.421657397412621
+            },
+            {
+              "latitude": 51.21890725514233,
+              "longitude": 4.421514260436828
+            },
+            {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 602,
+          "duurtijd": {
+            "start": "2019-03-09T14:28:00",
+            "einde": "2019-03-09T14:38:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103397",
+            "naam": "Antwerpen Astrid Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21890728101246,
+              "longitude": 4.421457009779077
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.218916269403344,
+              "longitude": 4.421457020072142
+            },
+            {
+              "latitude": 51.21891628878777,
+              "longitude": 4.42141408207051
+            },
+            {
+              "latitude": 51.21901547549083,
+              "longitude": 4.420712873018005
+            },
+            {
+              "latitude": 51.21897955377653,
+              "longitude": 4.420641268985778
+            },
+            {
+              "latitude": 51.21839530831361,
+              "longitude": 4.420640610164626
+            },
+            {
+              "latitude": 51.218017821236515,
+              "longitude": 4.420582934907415
+            },
+            {
+              "latitude": 51.21796389722873,
+              "longitude": 4.420568561786183
+            },
+            {
+              "latitude": 51.21777514094171,
+              "longitude": 4.42056834923345
+            },
+            {
+              "latitude": 51.21777514094171,
+              "longitude": 4.42056834923345
+            },
+            {
+              "latitude": 51.21776614618939,
+              "longitude": 4.420582651426254
+            },
+            {
+              "latitude": 51.21762230641896,
+              "longitude": 4.420639738519073
+            },
+            {
+              "latitude": 51.217586327362376,
+              "longitude": 4.420696947014599
+            },
+            {
+              "latitude": 51.217146092639474,
+              "longitude": 4.420252774008586
+            },
+            {
+              "latitude": 51.21707416017394,
+              "longitude": 4.420309941932205
+            },
+            {
+              "latitude": 51.216795462841446,
+              "longitude": 4.420438437863769
+            },
+            {
+              "latitude": 51.21664264103396,
+              "longitude": 4.42048120213642
+            },
+            {
+              "latitude": 51.21664264103396,
+              "longitude": 4.42048120213642
+            },
+            {
+              "latitude": 51.21663365263499,
+              "longitude": 4.420481192031953
+            },
+            {
+              "latitude": 51.21634603019685,
+              "longitude": 4.420466556812523
+            },
+            {
+              "latitude": 51.21590561758443,
+              "longitude": 4.420423126609691
+            },
+            {
+              "latitude": 51.21553709309515,
+              "longitude": 4.420422712795222
+            },
+            {
+              "latitude": 51.21541124277135,
+              "longitude": 4.42045119467742
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bestpassend": true,
+      "overstappen": 1,
+      "duurtijd": {
+        "start": "2019-03-09T14:08:00",
+        "einde": "2019-03-09T14:33:00",
+        "duurtijd": "P0DT0H25M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 187,
+          "duurtijd": {
+            "start": "2019-03-09T14:08:00",
+            "einde": "2019-03-09T14:11:00",
+            "duurtijd": "P0DT0H3M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "102182",
+            "naam": "Antwerpen Pacificatie",
+            "geoCoordinaat": {
+              "latitude": 51.20622563773309,
+              "longitude": 4.3901205748418
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.206881540531256,
+              "longitude": 4.391437311120831
+            },
+            {
+              "latitude": 51.20684559809784,
+              "longitude": 4.391380057234684
+            },
+            {
+              "latitude": 51.20679168720667,
+              "longitude": 4.391279867621205
+            },
+            {
+              "latitude": 51.20679169001683,
+              "longitude": 4.391265558671498
+            },
+            {
+              "latitude": 51.20679169001683,
+              "longitude": 4.391265558671498
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.206764761085424,
+              "longitude": 4.391079529016088
+            },
+            {
+              "latitude": 51.20675580873176,
+              "longitude": 4.390893508376474
+            },
+            {
+              "latitude": 51.20675581149516,
+              "longitude": 4.390879199437746
+            },
+            {
+              "latitude": 51.2067558142568,
+              "longitude": 4.39086489049902
+            },
+            {
+              "latitude": 51.206791792775014,
+              "longitude": 4.390736127531065
+            },
+            {
+              "latitude": 51.20631551140735,
+              "longitude": 4.390177852571621
+            },
+            {
+              "latitude": 51.20623463150824,
+              "longitude": 4.390091961535521
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "88",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "4",
+            "richting": "TERUG",
+            "omschrijving": "Hoboken - Groenplaats",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/4/lijnrichtingen/TERUG/rit/88?datum=2019-03-09T14:11:00"
+              }
+            ]
+          },
+          "afstand": 1668,
+          "duurtijd": {
+            "start": "2019-03-09T14:11:00",
+            "einde": "2019-03-09T14:21:00",
+            "duurtijd": "P0DT0H10M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "102182",
+            "naam": "Antwerpen Pacificatie",
+            "geoCoordinaat": {
+              "latitude": 51.20622563773309,
+              "longitude": 4.3901205748418
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102182/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102182/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102182/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102182/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102182/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "102670",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21843822366993,
+              "longitude": 4.401504810448994
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102670/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102670/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102670/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102670/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102670/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20624362527643,
+              "longitude": 4.39006334821821
+            },
+            {
+              "latitude": 51.206324505196044,
+              "longitude": 4.390149239221256
+            },
+            {
+              "latitude": 51.206818760824966,
+              "longitude": 4.390721831683538
+            },
+            {
+              "latitude": 51.206773788365815,
+              "longitude": 4.390879208233225
+            },
+            {
+              "latitude": 51.20676479993049,
+              "longitude": 4.3908792038354845
+            },
+            {
+              "latitude": 51.20676479993049,
+              "longitude": 4.3908792038354845
+            },
+            {
+              "latitude": 51.20678273795601,
+              "longitude": 4.391079537888779
+            },
+            {
+              "latitude": 51.206809669695666,
+              "longitude": 4.3912512586606685
+            },
+            {
+              "latitude": 51.20686357496786,
+              "longitude": 4.3913800662232205
+            },
+            {
+              "latitude": 51.20688154901373,
+              "longitude": 4.3913943841890335
+            },
+            {
+              "latitude": 51.20698040764974,
+              "longitude": 4.391465978694461
+            },
+            {
+              "latitude": 51.20710624289612,
+              "longitude": 4.391480350892556
+            },
+            {
+              "latitude": 51.20721411260147,
+              "longitude": 4.3914374778182586
+            },
+            {
+              "latitude": 51.207295019810545,
+              "longitude": 4.391380281950201
+            },
+            {
+              "latitude": 51.20835539958913,
+              "longitude": 4.39264004208618
+            },
+            {
+              "latitude": 51.20836438504229,
+              "longitude": 4.392654356255523
+            },
+            {
+              "latitude": 51.208562079621345,
+              "longitude": 4.392897721912756
+            },
+            {
+              "latitude": 51.20909225981244,
+              "longitude": 4.393541938837271
+            },
+            {
+              "latitude": 51.20938879709776,
+              "longitude": 4.393914154310335
+            },
+            {
+              "latitude": 51.20962243321965,
+              "longitude": 4.394200480226134
+            },
+            {
+              "latitude": 51.20982012132391,
+              "longitude": 4.394458168880155
+            },
+            {
+              "latitude": 51.20983809497627,
+              "longitude": 4.394472488939851
+            },
+            {
+              "latitude": 51.21005375931848,
+              "longitude": 4.394730190218848
+            },
+            {
+              "latitude": 51.21097929621053,
+              "longitude": 4.395904158882888
+            },
+            {
+              "latitude": 51.21106915677492,
+              "longitude": 4.396004384381149
+            },
+            {
+              "latitude": 51.21107814181118,
+              "longitude": 4.396018700031569
+            },
+            {
+              "latitude": 51.21134771266728,
+              "longitude": 4.396362310025957
+            },
+            {
+              "latitude": 51.21182395690096,
+              "longitude": 4.396949329366462
+            },
+            {
+              "latitude": 51.21190482813255,
+              "longitude": 4.397049553106314
+            },
+            {
+              "latitude": 51.21195874458296,
+              "longitude": 4.397106828769565
+            },
+            {
+              "latitude": 51.212012668047734,
+              "longitude": 4.3971354834629155
+            },
+            {
+              "latitude": 51.21204861114703,
+              "longitude": 4.397178437565624
+            },
+            {
+              "latitude": 51.21263279087064,
+              "longitude": 4.397450706457758
+            },
+            {
+              "latitude": 51.21278557253413,
+              "longitude": 4.397536667490468
+            },
+            {
+              "latitude": 51.21280354936209,
+              "longitude": 4.397536678853353
+            },
+            {
+              "latitude": 51.21294734611745,
+              "longitude": 4.397608323946489
+            },
+            {
+              "latitude": 51.213864056030296,
+              "longitude": 4.398038238453161
+            },
+            {
+              "latitude": 51.21407076401028,
+              "longitude": 4.398138549631964
+            },
+            {
+              "latitude": 51.21452911803819,
+              "longitude": 4.39835351516232
+            },
+            {
+              "latitude": 51.21453810277787,
+              "longitude": 4.39836783232746
+            },
+            {
+              "latitude": 51.215239109935645,
+              "longitude": 4.398711764987322
+            },
+            {
+              "latitude": 51.21524809462944,
+              "longitude": 4.3987260824394605
+            },
+            {
+              "latitude": 51.21538290584222,
+              "longitude": 4.398783417445781
+            },
+            {
+              "latitude": 51.2158142895067,
+              "longitude": 4.399012689190146
+            },
+            {
+              "latitude": 51.215832262565314,
+              "longitude": 4.399027012845932
+            },
+            {
+              "latitude": 51.21617377675525,
+              "longitude": 4.399198981608102
+            },
+            {
+              "latitude": 51.21631757231406,
+              "longitude": 4.399270637005099
+            },
+            {
+              "latitude": 51.21632656071558,
+              "longitude": 4.3992706430211985
+            },
+            {
+              "latitude": 51.21666807448519,
+              "longitude": 4.399442615390485
+            },
+            {
+              "latitude": 51.21667705908547,
+              "longitude": 4.3994569334221705
+            },
+            {
+              "latitude": 51.216784908475994,
+              "longitude": 4.39949994209346
+            },
+            {
+              "latitude": 51.21687477342116,
+              "longitude": 4.399571562912497
+            },
+            {
+              "latitude": 51.21689274640462,
+              "longitude": 4.399585887109429
+            },
+            {
+              "latitude": 51.21698261511823,
+              "longitude": 4.399643196183565
+            },
+            {
+              "latitude": 51.21708146453556,
+              "longitude": 4.399729135790622
+            },
+            {
+              "latitude": 51.21773748231913,
+              "longitude": 4.400230512204941
+            },
+            {
+              "latitude": 51.217764439715964,
+              "longitude": 4.40025915544099
+            },
+            {
+              "latitude": 51.21846537723142,
+              "longitude": 4.400832140828906
+            },
+            {
+              "latitude": 51.2185282801047,
+              "longitude": 4.400889435252387
+            },
+            {
+              "latitude": 51.21862712457079,
+              "longitude": 4.400989692930723
+            },
+            {
+              "latitude": 51.21856414582529,
+              "longitude": 4.401204336918172
+            },
+            {
+              "latitude": 51.218528156068935,
+              "longitude": 4.401333124315129
+            },
+            {
+              "latitude": 51.218528152040065,
+              "longitude": 4.401347436865501
+            },
+            {
+              "latitude": 51.218483157538344,
+              "longitude": 4.401533467757269
+            }
+          ],
+          "omleidingen": [
+            {
+              "titel": "Rijdt slechts tot: Antwerpen Groenplaats.",
+              "omschrijving": "Rijdt slechts tot: Antwerpen Groenplaats."
+            }
+          ]
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 53,
+          "duurtijd": {
+            "start": "2019-03-09T14:21:00",
+            "einde": "2019-03-09T14:22:00",
+            "duurtijd": "P0DT0H1M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "102670",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21843822366993,
+              "longitude": 4.401504810448994
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21846518480204,
+              "longitude": 4.401519142321125
+            },
+            {
+              "latitude": 51.21844718773995,
+              "longitude": 4.401590692049059
+            },
+            {
+              "latitude": 51.21841119348547,
+              "longitude": 4.401733791339237
+            },
+            {
+              "latitude": 51.21839317584555,
+              "longitude": 4.401876903445984
+            },
+            {
+              "latitude": 51.218384154645314,
+              "longitude": 4.401991396976241
+            },
+            {
+              "latitude": 51.218384150536735,
+              "longitude": 4.402005709482354
+            },
+            {
+              "latitude": 51.218384121728306,
+              "longitude": 4.402105897025081
+            },
+            {
+              "latitude": 51.218447061072595,
+              "longitude": 4.40203438033828
+            },
+            {
+              "latitude": 51.21844706929493,
+              "longitude": 4.402005755287436
+            },
+            {
+              "latitude": 51.2184560741127,
+              "longitude": 4.401948511718276
+            }
+          ]
+        },
+        {
+          "type": "WACHTEN",
+          "duurtijd": {
+            "start": "2019-03-09T14:22:00",
+            "einde": "2019-03-09T14:25:00",
+            "duurtijd": "P0DT0H3M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          }
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "101",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "15",
+            "richting": "HEEN",
+            "omschrijving": "P+R Linkeroever - P+R Boechout",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/15/lijnrichtingen/HEEN/rit/101?datum=2019-03-09T14:25:00"
+              }
+            ]
+          },
+          "afstand": 1460,
+          "duurtijd": {
+            "start": "2019-03-09T14:25:00",
+            "einde": "2019-03-09T14:30:00",
+            "duurtijd": "P0DT0H5M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.2184291089309,
+              "longitude": 4.401948492120608
+            },
+            {
+              "latitude": 51.21842909250703,
+              "longitude": 4.402005742200257
+            },
+            {
+              "latitude": 51.218429071938225,
+              "longitude": 4.402077304799759
+            },
+            {
+              "latitude": 51.218411086910564,
+              "longitude": 4.402105916713751
+            },
+            {
+              "latitude": 51.21835703629217,
+              "longitude": 4.4025209397720895
+            },
+            {
+              "latitude": 51.2183120984917,
+              "longitude": 4.402506594073749
+            },
+            {
+              "latitude": 51.21831209014812,
+              "longitude": 4.402535219041648
+            },
+            {
+              "latitude": 51.21835702794511,
+              "longitude": 4.402549564767573
+            },
+            {
+              "latitude": 51.218339005123966,
+              "longitude": 4.402706988885049
+            },
+            {
+              "latitude": 51.21832097366284,
+              "longitude": 4.402893037854119
+            },
+            {
+              "latitude": 51.21831196416266,
+              "longitude": 4.402964593558896
+            },
+            {
+              "latitude": 51.218302946147354,
+              "longitude": 4.403064774198211
+            },
+            {
+              "latitude": 51.218302890911744,
+              "longitude": 4.403250836452186
+            },
+            {
+              "latitude": 51.21831187078231,
+              "longitude": 4.403279468203384
+            },
+            {
+              "latitude": 51.21832080360312,
+              "longitude": 4.403465537317665
+            },
+            {
+              "latitude": 51.21833872021579,
+              "longitude": 4.403665925856072
+            },
+            {
+              "latitude": 51.218338715904494,
+              "longitude": 4.403680238348087
+            },
+            {
+              "latitude": 51.218356658140294,
+              "longitude": 4.4037947520609455
+            },
+            {
+              "latitude": 51.218401556763915,
+              "longitude": 4.403937911615986
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.2184733941995,
+              "longitude": 4.4041669674774715
+            },
+            {
+              "latitude": 51.21850033312292,
+              "longitude": 4.40425286360748
+            },
+            {
+              "latitude": 51.21850929080387,
+              "longitude": 4.4043530583944275
+            },
+            {
+              "latitude": 51.218509264411196,
+              "longitude": 4.404438933660208
+            },
+            {
+              "latitude": 51.218500253976075,
+              "longitude": 4.404510489355209
+            },
+            {
+              "latitude": 51.21850024956259,
+              "longitude": 4.404524801896725
+            },
+            {
+              "latitude": 51.2184732445822,
+              "longitude": 4.404653593608265
+            },
+            {
+              "latitude": 51.218455232299675,
+              "longitude": 4.404768079721767
+            },
+            {
+              "latitude": 51.21845516544744,
+              "longitude": 4.404982767636546
+            },
+            {
+              "latitude": 51.218329156829135,
+              "longitude": 4.405526542573026
+            },
+            {
+              "latitude": 51.218230013874404,
+              "longitude": 4.406370898178464
+            },
+            {
+              "latitude": 51.21818492729627,
+              "longitude": 4.4068145470346565
+            },
+            {
+              "latitude": 51.21815778258266,
+              "longitude": 4.407358397197768
+            },
+            {
+              "latitude": 51.218130601562144,
+              "longitude": 4.408002433721671
+            },
+            {
+              "latitude": 51.21804912337643,
+              "longitude": 4.409691227945227
+            },
+            {
+              "latitude": 51.21802199093561,
+              "longitude": 4.410163512878623
+            },
+            {
+              "latitude": 51.218030758559586,
+              "longitude": 4.410778954058215
+            },
+            {
+              "latitude": 51.218048511374654,
+              "longitude": 4.411394403822404
+            },
+            {
+              "latitude": 51.21825491050957,
+              "longitude": 4.412296281273766
+            },
+            {
+              "latitude": 51.21825473825818,
+              "longitude": 4.412754280164389
+            },
+            {
+              "latitude": 51.218308478189364,
+              "longitude": 4.413255268718962
+            },
+            {
+              "latitude": 51.218245383466936,
+              "longitude": 4.413713206530248
+            },
+            {
+              "latitude": 51.21814626628307,
+              "longitude": 4.4143428567300464
+            },
+            {
+              "latitude": 51.217939067950226,
+              "longitude": 4.415516265726595
+            },
+            {
+              "latitude": 51.21784888292283,
+              "longitude": 4.416260415948897
+            },
+            {
+              "latitude": 51.21775872872793,
+              "longitude": 4.416918689417593
+            },
+            {
+              "latitude": 51.21770466185944,
+              "longitude": 4.417247815715958
+            },
+            {
+              "latitude": 51.21764154564758,
+              "longitude": 4.417720054470973
+            },
+            {
+              "latitude": 51.217632545225044,
+              "longitude": 4.417748669445896
+            },
+            {
+              "latitude": 51.2174792864851,
+              "longitude": 4.41882192361968
+            },
+            {
+              "latitude": 51.21742522049671,
+              "longitude": 4.419136733528986
+            },
+            {
+              "latitude": 51.21734413865354,
+              "longitude": 4.41956601046939
+            },
+            {
+              "latitude": 51.21727208761341,
+              "longitude": 4.41989511078857
+            },
+            {
+              "latitude": 51.21723606489629,
+              "longitude": 4.420052504490935
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.21713711687537,
+              "longitude": 4.420224139705436
+            },
+            {
+              "latitude": 51.217065184423454,
+              "longitude": 4.420281307662225
+            },
+            {
+              "latitude": 51.21694830995286,
+              "longitude": 4.420338425057504
+            },
+            {
+              "latitude": 51.21678648712109,
+              "longitude": 4.4204098037401875
+            },
+            {
+              "latitude": 51.21672356199308,
+              "longitude": 4.42042404509945
+            },
+            {
+              "latitude": 51.21663366532341,
+              "longitude": 4.420452568098448
+            },
+            {
+              "latitude": 51.21662467692443,
+              "longitude": 4.420452557999499
+            },
+            {
+              "latitude": 51.216462892078845,
+              "longitude": 4.420438064304755
+            },
+            {
+              "latitude": 51.216346042881725,
+              "longitude": 4.4204379330555605
+            },
+            {
+              "latitude": 51.215905630258796,
+              "longitude": 4.420394503123043
+            },
+            {
+              "latitude": 51.21577080423226,
+              "longitude": 4.420394351809501
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 174,
+          "duurtijd": {
+            "start": "2019-03-09T14:30:00",
+            "einde": "2019-03-09T14:33:00",
+            "duurtijd": "P0DT0H3M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21577079155792,
+              "longitude": 4.42042297521339
+            },
+            {
+              "latitude": 51.21553709309515,
+              "longitude": 4.420422712795222
+            },
+            {
+              "latitude": 51.21541124277135,
+              "longitude": 4.42045119467742
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bestpassend": false,
+      "overstappen": 1,
+      "duurtijd": {
+        "start": "2019-03-09T14:15:00",
+        "einde": "2019-03-09T14:38:00",
+        "duurtijd": "P0DT0H23M0S"
+      },
+      "reiswegStappen": [
+        {
+          "type": "WANDELEN",
+          "afstand": 115,
+          "duurtijd": {
+            "start": "2019-03-09T14:15:00",
+            "einde": "2019-03-09T14:17:00",
+            "duurtijd": "P0DT0H2M0S"
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103041",
+            "naam": "Antwerpen Graaf Van Hoornestraat",
+            "geoCoordinaat": {
+              "latitude": 51.20640490662504,
+              "longitude": 4.392653322980821
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.206755648355376,
+              "longitude": 4.391709117880946
+            },
+            {
+              "latitude": 51.20637797100156,
+              "longitude": 4.392510220535035
+            },
+            {
+              "latitude": 51.20633300805592,
+              "longitude": 4.3926103586374285
+            },
+            {
+              "latitude": 51.206386935703044,
+              "longitude": 4.3926246958507384
+            }
+          ]
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "BUS",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "712",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "180",
+            "richting": "TERUG",
+            "omschrijving": "Aartselaar - Groenplaats",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/180/lijnrichtingen/TERUG/rit/712?datum=2019-03-09T14:17:00"
+              }
+            ]
+          },
+          "afstand": 1760,
+          "duurtijd": {
+            "start": "2019-03-09T14:17:00",
+            "einde": "2019-03-09T14:21:00",
+            "duurtijd": "P0DT0H4M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103041",
+            "naam": "Antwerpen Graaf Van Hoornestraat",
+            "geoCoordinaat": {
+              "latitude": 51.20640490662504,
+              "longitude": 4.392653322980821
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103041/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "102675",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21874388958414,
+              "longitude": 4.4012903404008545
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102675/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.20639593305328,
+              "longitude": 4.39258177410017
+            },
+            {
+              "latitude": 51.20938879709776,
+              "longitude": 4.393914154310335
+            },
+            {
+              "latitude": 51.20962243321965,
+              "longitude": 4.394200480226134
+            },
+            {
+              "latitude": 51.20982012132391,
+              "longitude": 4.394458168880155
+            },
+            {
+              "latitude": 51.20983809497627,
+              "longitude": 4.394472488939851
+            },
+            {
+              "latitude": 51.21005375931848,
+              "longitude": 4.394730190218848
+            },
+            {
+              "latitude": 51.21097929621053,
+              "longitude": 4.395904158882888
+            },
+            {
+              "latitude": 51.21106915677492,
+              "longitude": 4.396004384381149
+            },
+            {
+              "latitude": 51.21107814181118,
+              "longitude": 4.396018700031569
+            },
+            {
+              "latitude": 51.21134771266728,
+              "longitude": 4.396362310025957
+            },
+            {
+              "latitude": 51.21182395690096,
+              "longitude": 4.396949329366462
+            },
+            {
+              "latitude": 51.21190482813255,
+              "longitude": 4.397049553106314
+            },
+            {
+              "latitude": 51.21195874458296,
+              "longitude": 4.397106828769565
+            },
+            {
+              "latitude": 51.212012668047734,
+              "longitude": 4.3971354834629155
+            },
+            {
+              "latitude": 51.21204861114703,
+              "longitude": 4.397178437565624
+            },
+            {
+              "latitude": 51.21263279087064,
+              "longitude": 4.397450706457758
+            },
+            {
+              "latitude": 51.21278557253413,
+              "longitude": 4.397536667490468
+            },
+            {
+              "latitude": 51.21280354936209,
+              "longitude": 4.397536678853353
+            },
+            {
+              "latitude": 51.21294734611745,
+              "longitude": 4.397608323946489
+            },
+            {
+              "latitude": 51.213864056030296,
+              "longitude": 4.398038238453161
+            },
+            {
+              "latitude": 51.21407076401028,
+              "longitude": 4.398138549631964
+            },
+            {
+              "latitude": 51.21452911803819,
+              "longitude": 4.39835351516232
+            },
+            {
+              "latitude": 51.21453810277787,
+              "longitude": 4.39836783232746
+            },
+            {
+              "latitude": 51.215239109935645,
+              "longitude": 4.398711764987322
+            },
+            {
+              "latitude": 51.21524809462944,
+              "longitude": 4.3987260824394605
+            },
+            {
+              "latitude": 51.21538290584222,
+              "longitude": 4.398783417445781
+            },
+            {
+              "latitude": 51.2158142895067,
+              "longitude": 4.399012689190146
+            },
+            {
+              "latitude": 51.215832262565314,
+              "longitude": 4.399027012845932
+            },
+            {
+              "latitude": 51.21617377675525,
+              "longitude": 4.399198981608102
+            },
+            {
+              "latitude": 51.21869895164114,
+              "longitude": 4.401275995769426
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 78,
+          "duurtijd": {
+            "start": "2019-03-09T14:21:00",
+            "einde": "2019-03-09T14:23:00",
+            "duurtijd": "P0DT0H2M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "102675",
+            "naam": "Antwerpen Groenplaats",
+            "geoCoordinaat": {
+              "latitude": 51.21874388958414,
+              "longitude": 4.4012903404008545
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21871692440525,
+              "longitude": 4.4012903211836685
+            },
+            {
+              "latitude": 51.21871692038157,
+              "longitude": 4.401304633791984
+            },
+            {
+              "latitude": 51.21869891538113,
+              "longitude": 4.401404809194533
+            },
+            {
+              "latitude": 51.21859992117552,
+              "longitude": 4.401834115660784
+            },
+            {
+              "latitude": 51.2185909286926,
+              "longitude": 4.401848421719851
+            },
+            {
+              "latitude": 51.2185909286926,
+              "longitude": 4.401848421719851
+            },
+            {
+              "latitude": 51.21855494234015,
+              "longitude": 4.40196289613512
+            },
+            {
+              "latitude": 51.21855493823504,
+              "longitude": 4.4019772086936575
+            },
+            {
+              "latitude": 51.21854594984148,
+              "longitude": 4.401977202155553
+            },
+            {
+              "latitude": 51.21850098320623,
+              "longitude": 4.402063044716924
+            },
+            {
+              "latitude": 51.218500979088994,
+              "longitude": 4.40207735725889
+            },
+            {
+              "latitude": 51.218500979088994,
+              "longitude": 4.40207735725889
+            },
+            {
+              "latitude": 51.21849199069527,
+              "longitude": 4.402077350701491
+            },
+            {
+              "latitude": 51.218447061072595,
+              "longitude": 4.40203438033828
+            },
+            {
+              "latitude": 51.21844706929493,
+              "longitude": 4.402005755287436
+            },
+            {
+              "latitude": 51.2184560741127,
+              "longitude": 4.401948511718276
+            }
+          ]
+        },
+        {
+          "type": "WACHTEN",
+          "duurtijd": {
+            "start": "2019-03-09T14:23:00",
+            "einde": "2019-03-09T14:30:00",
+            "duurtijd": "P0DT0H7M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            }
+          }
+        },
+        {
+          "type": "VOERTUIG",
+          "lijnType": "TRAM",
+          "maatschappijType": "DE_LIJN",
+          "ritnummer": "101",
+          "lijnrichting": {
+            "entiteitnummer": "1",
+            "lijnnummer": "9",
+            "richting": "HEEN",
+            "omschrijving": "P+R Linkeroever - Silsburg",
+            "links": [
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/dienstregelingen"
+              },
+              {
+                "rel": "haltes",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/haltes"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/storingen"
+              },
+              {
+                "rel": "rit",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/9/lijnrichtingen/HEEN/rit/101?datum=2019-03-09T14:30:00"
+              }
+            ]
+          },
+          "afstand": 1460,
+          "duurtijd": {
+            "start": "2019-03-09T14:30:00",
+            "einde": "2019-03-09T14:35:00",
+            "duurtijd": "P0DT0H5M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103756",
+            "naam": "Antwerpen Groenplaats Metro",
+            "geoCoordinaat": {
+              "latitude": 51.21846505840321,
+              "longitude": 4.401962830781788
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103756/storingen"
+              }
+            ]
+          },
+          "aankomstPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            },
+            "links": [
+              {
+                "rel": "lijnrichtingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/lijnrichtingen"
+              },
+              {
+                "rel": "real-time",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/real-time"
+              },
+              {
+                "rel": "dienstregelingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/dienstregelingen"
+              },
+              {
+                "rel": "omleidingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/omleidingen"
+              },
+              {
+                "rel": "storingen",
+                "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103378/storingen"
+              }
+            ]
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.2184291089309,
+              "longitude": 4.401948492120608
+            },
+            {
+              "latitude": 51.21842909250703,
+              "longitude": 4.402005742200257
+            },
+            {
+              "latitude": 51.218429071938225,
+              "longitude": 4.402077304799759
+            },
+            {
+              "latitude": 51.218411086910564,
+              "longitude": 4.402105916713751
+            },
+            {
+              "latitude": 51.21835703629217,
+              "longitude": 4.4025209397720895
+            },
+            {
+              "latitude": 51.2183120984917,
+              "longitude": 4.402506594073749
+            },
+            {
+              "latitude": 51.21831209014812,
+              "longitude": 4.402535219041648
+            },
+            {
+              "latitude": 51.21835702794511,
+              "longitude": 4.402549564767573
+            },
+            {
+              "latitude": 51.218339005123966,
+              "longitude": 4.402706988885049
+            },
+            {
+              "latitude": 51.21832097366284,
+              "longitude": 4.402893037854119
+            },
+            {
+              "latitude": 51.21831196416266,
+              "longitude": 4.402964593558896
+            },
+            {
+              "latitude": 51.218302946147354,
+              "longitude": 4.403064774198211
+            },
+            {
+              "latitude": 51.218302890911744,
+              "longitude": 4.403250836452186
+            },
+            {
+              "latitude": 51.21831187078231,
+              "longitude": 4.403279468203384
+            },
+            {
+              "latitude": 51.21832080360312,
+              "longitude": 4.403465537317665
+            },
+            {
+              "latitude": 51.21833872021579,
+              "longitude": 4.403665925856072
+            },
+            {
+              "latitude": 51.218338715904494,
+              "longitude": 4.403680238348087
+            },
+            {
+              "latitude": 51.218356658140294,
+              "longitude": 4.4037947520609455
+            },
+            {
+              "latitude": 51.218401556763915,
+              "longitude": 4.403937911615986
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.21844645521338,
+              "longitude": 4.404081071446711
+            },
+            {
+              "latitude": 51.2184733941995,
+              "longitude": 4.4041669674774715
+            },
+            {
+              "latitude": 51.21850033312292,
+              "longitude": 4.40425286360748
+            },
+            {
+              "latitude": 51.21850929080387,
+              "longitude": 4.4043530583944275
+            },
+            {
+              "latitude": 51.218509264411196,
+              "longitude": 4.404438933660208
+            },
+            {
+              "latitude": 51.218500253976075,
+              "longitude": 4.404510489355209
+            },
+            {
+              "latitude": 51.21850024956259,
+              "longitude": 4.404524801896725
+            },
+            {
+              "latitude": 51.2184732445822,
+              "longitude": 4.404653593608265
+            },
+            {
+              "latitude": 51.218455232299675,
+              "longitude": 4.404768079721767
+            },
+            {
+              "latitude": 51.21845516544744,
+              "longitude": 4.404982767636546
+            },
+            {
+              "latitude": 51.218329156829135,
+              "longitude": 4.405526542573026
+            },
+            {
+              "latitude": 51.218230013874404,
+              "longitude": 4.406370898178464
+            },
+            {
+              "latitude": 51.21818492729627,
+              "longitude": 4.4068145470346565
+            },
+            {
+              "latitude": 51.21815778258266,
+              "longitude": 4.407358397197768
+            },
+            {
+              "latitude": 51.218130601562144,
+              "longitude": 4.408002433721671
+            },
+            {
+              "latitude": 51.21804912337643,
+              "longitude": 4.409691227945227
+            },
+            {
+              "latitude": 51.21802199093561,
+              "longitude": 4.410163512878623
+            },
+            {
+              "latitude": 51.218030758559586,
+              "longitude": 4.410778954058215
+            },
+            {
+              "latitude": 51.218048511374654,
+              "longitude": 4.411394403822404
+            },
+            {
+              "latitude": 51.21825491050957,
+              "longitude": 4.412296281273766
+            },
+            {
+              "latitude": 51.21825473825818,
+              "longitude": 4.412754280164389
+            },
+            {
+              "latitude": 51.218308478189364,
+              "longitude": 4.413255268718962
+            },
+            {
+              "latitude": 51.218245383466936,
+              "longitude": 4.413713206530248
+            },
+            {
+              "latitude": 51.21814626628307,
+              "longitude": 4.4143428567300464
+            },
+            {
+              "latitude": 51.217939067950226,
+              "longitude": 4.415516265726595
+            },
+            {
+              "latitude": 51.21784888292283,
+              "longitude": 4.416260415948897
+            },
+            {
+              "latitude": 51.21775872872793,
+              "longitude": 4.416918689417593
+            },
+            {
+              "latitude": 51.21770466185944,
+              "longitude": 4.417247815715958
+            },
+            {
+              "latitude": 51.21764154564758,
+              "longitude": 4.417720054470973
+            },
+            {
+              "latitude": 51.217632545225044,
+              "longitude": 4.417748669445896
+            },
+            {
+              "latitude": 51.2174792864851,
+              "longitude": 4.41882192361968
+            },
+            {
+              "latitude": 51.21742522049671,
+              "longitude": 4.419136733528986
+            },
+            {
+              "latitude": 51.21734413865354,
+              "longitude": 4.41956601046939
+            },
+            {
+              "latitude": 51.21727208761341,
+              "longitude": 4.41989511078857
+            },
+            {
+              "latitude": 51.21723606489629,
+              "longitude": 4.420052504490935
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.217137123189346,
+              "longitude": 4.420209827584129
+            },
+            {
+              "latitude": 51.21713711687537,
+              "longitude": 4.420224139705436
+            },
+            {
+              "latitude": 51.217065184423454,
+              "longitude": 4.420281307662225
+            },
+            {
+              "latitude": 51.21694830995286,
+              "longitude": 4.420338425057504
+            },
+            {
+              "latitude": 51.21678648712109,
+              "longitude": 4.4204098037401875
+            },
+            {
+              "latitude": 51.21672356199308,
+              "longitude": 4.42042404509945
+            },
+            {
+              "latitude": 51.21663366532341,
+              "longitude": 4.420452568098448
+            },
+            {
+              "latitude": 51.21662467692443,
+              "longitude": 4.420452557999499
+            },
+            {
+              "latitude": 51.216462892078845,
+              "longitude": 4.420438064304755
+            },
+            {
+              "latitude": 51.216346042881725,
+              "longitude": 4.4204379330555605
+            },
+            {
+              "latitude": 51.215905630258796,
+              "longitude": 4.420394503123043
+            },
+            {
+              "latitude": 51.21577080423226,
+              "longitude": 4.420394351809501
+            }
+          ],
+          "omleidingen": []
+        },
+        {
+          "type": "WANDELEN",
+          "afstand": 174,
+          "duurtijd": {
+            "start": "2019-03-09T14:35:00",
+            "einde": "2019-03-09T14:38:00",
+            "duurtijd": "P0DT0H3M0S"
+          },
+          "vertrekPunt": {
+            "type": "DELIJN",
+            "id": "103378",
+            "naam": "Antwerpen Diamant Metro",
+            "geoCoordinaat": {
+              "latitude": 51.215770766188456,
+              "longitude": 4.420480222021124
+            }
+          },
+          "geoCoordinaten": [
+            {
+              "latitude": 51.21577079155792,
+              "longitude": 4.42042297521339
+            },
+            {
+              "latitude": 51.21553709309515,
+              "longitude": 4.420422712795222
+            },
+            {
+              "latitude": 51.21541124277135,
+              "longitude": 4.42045119467742
+            },
+            {
+              "latitude": 51.21539331664783,
+              "longitude": 4.4203366817918575
+            },
+            {
+              "latitude": 51.21528544314519,
+              "longitude": 4.420365183982036
+            },
+            {
+              "latitude": 51.21514161601453,
+              "longitude": 4.420393645691259
+            },
+            {
+              "latitude": 51.214647183942134,
+              "longitude": 4.420550515825832
+            },
+            {
+              "latitude": 51.214494361965926,
+              "longitude": 4.420593277761307
+            },
+            {
+              "latitude": 51.21440447153931,
+              "longitude": 4.420607487788089
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "url": "https://api.delijn.be/DLKernOpenData/v1/beta/routeplan/51.207,4.392/51.2144,4.4203?aanvraagType=INITIEEL&tijdstip=2019-03-09T14:00:00&vertrekAankomst=VERTREK"
+    }
+  ]
+}

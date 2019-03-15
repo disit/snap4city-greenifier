@@ -1,0 +1,2273 @@
+{
+  "ritDoorkomsten": [
+    {
+      "ritnummer": "51",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T10:24:00",
+          "real-timeTijdstip": "2019-03-09T10:24:47",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T10:25:00",
+          "real-timeTijdstip": "2019-03-09T10:26:14",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T10:26:00",
+          "real-timeTijdstip": "2019-03-09T10:29:59",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T10:28:00",
+          "real-timeTijdstip": "2019-03-09T10:32:17",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T10:29:00",
+          "real-timeTijdstip": "2019-03-09T10:33:34",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T10:31:00",
+          "real-timeTijdstip": "2019-03-09T10:36:07",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T10:33:00",
+          "real-timeTijdstip": "2019-03-09T10:38:09",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T10:38:00",
+          "real-timeTijdstip": "2019-03-09T10:40:50",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T10:40:00",
+          "real-timeTijdstip": "2019-03-09T10:43:14",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T10:42:00",
+          "real-timeTijdstip": "2019-03-09T10:46:18",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T10:44:00",
+          "real-timeTijdstip": "2019-03-09T10:49:06",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T10:46:00",
+          "real-timeTijdstip": "2019-03-09T10:50:51",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T10:47:00",
+          "real-timeTijdstip": "2019-03-09T10:52:59",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T10:50:00",
+          "real-timeTijdstip": "2019-03-09T10:55:08",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "53",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T10:34:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T10:35:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T10:36:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T10:38:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T10:39:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T10:41:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T10:43:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T10:48:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T10:50:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T10:52:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T10:54:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T10:56:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T10:57:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:00:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "55",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T10:44:00",
+          "real-timeTijdstip": "2019-03-09T10:44:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T10:45:00",
+          "real-timeTijdstip": "2019-03-09T10:45:21",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T10:46:00",
+          "real-timeTijdstip": "2019-03-09T10:49:36",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T10:48:00",
+          "real-timeTijdstip": "2019-03-09T10:51:52",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T10:49:00",
+          "real-timeTijdstip": "2019-03-09T10:53:21",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T10:51:00",
+          "real-timeTijdstip": "2019-03-09T10:54:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T10:53:00",
+          "real-timeTijdstip": "2019-03-09T10:56:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T10:58:00",
+          "real-timeTijdstip": "2019-03-09T11:01:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:00:00",
+          "real-timeTijdstip": "2019-03-09T11:03:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:02:00",
+          "real-timeTijdstip": "2019-03-09T11:05:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:04:00",
+          "real-timeTijdstip": "2019-03-09T11:07:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:06:00",
+          "real-timeTijdstip": "2019-03-09T11:09:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:07:00",
+          "real-timeTijdstip": "2019-03-09T11:10:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:10:00",
+          "real-timeTijdstip": "2019-03-09T11:13:37",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "57",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T10:54:00",
+          "real-timeTijdstip": "2019-03-09T10:54:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T10:55:00",
+          "real-timeTijdstip": "2019-03-09T10:54:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T10:56:00",
+          "real-timeTijdstip": "2019-03-09T10:55:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T10:58:00",
+          "real-timeTijdstip": "2019-03-09T10:57:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T10:59:00",
+          "real-timeTijdstip": "2019-03-09T10:58:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:01:00",
+          "real-timeTijdstip": "2019-03-09T11:00:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:03:00",
+          "real-timeTijdstip": "2019-03-09T11:02:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:08:00",
+          "real-timeTijdstip": "2019-03-09T11:07:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:10:00",
+          "real-timeTijdstip": "2019-03-09T11:09:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:12:00",
+          "real-timeTijdstip": "2019-03-09T11:11:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:14:00",
+          "real-timeTijdstip": "2019-03-09T11:13:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:16:00",
+          "real-timeTijdstip": "2019-03-09T11:15:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:17:00",
+          "real-timeTijdstip": "2019-03-09T11:16:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:20:00",
+          "real-timeTijdstip": "2019-03-09T11:19:44",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "59",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:04:00",
+          "real-timeTijdstip": "2019-03-09T11:04:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:05:00",
+          "real-timeTijdstip": "2019-03-09T11:05:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:06:00",
+          "real-timeTijdstip": "2019-03-09T11:06:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:08:00",
+          "real-timeTijdstip": "2019-03-09T11:08:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:09:00",
+          "real-timeTijdstip": "2019-03-09T11:09:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:11:00",
+          "real-timeTijdstip": "2019-03-09T11:11:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:13:00",
+          "real-timeTijdstip": "2019-03-09T11:13:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:18:00",
+          "real-timeTijdstip": "2019-03-09T11:18:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:20:00",
+          "real-timeTijdstip": "2019-03-09T11:20:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:22:00",
+          "real-timeTijdstip": "2019-03-09T11:22:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:24:00",
+          "real-timeTijdstip": "2019-03-09T11:24:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:26:00",
+          "real-timeTijdstip": "2019-03-09T11:26:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:27:00",
+          "real-timeTijdstip": "2019-03-09T11:27:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:30:00",
+          "real-timeTijdstip": "2019-03-09T11:30:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "61",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:14:00",
+          "real-timeTijdstip": "2019-03-09T11:14:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:15:00",
+          "real-timeTijdstip": "2019-03-09T11:15:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:16:00",
+          "real-timeTijdstip": "2019-03-09T11:16:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:18:00",
+          "real-timeTijdstip": "2019-03-09T11:18:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:19:00",
+          "real-timeTijdstip": "2019-03-09T11:19:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:21:00",
+          "real-timeTijdstip": "2019-03-09T11:21:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:23:00",
+          "real-timeTijdstip": "2019-03-09T11:23:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:28:00",
+          "real-timeTijdstip": "2019-03-09T11:28:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:30:00",
+          "real-timeTijdstip": "2019-03-09T11:30:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:32:00",
+          "real-timeTijdstip": "2019-03-09T11:32:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:34:00",
+          "real-timeTijdstip": "2019-03-09T11:34:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:36:00",
+          "real-timeTijdstip": "2019-03-09T11:36:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:37:00",
+          "real-timeTijdstip": "2019-03-09T11:37:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:40:00",
+          "real-timeTijdstip": "2019-03-09T11:40:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "63",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:24:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:25:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:26:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:28:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:29:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:31:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:33:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:38:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:40:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:42:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:44:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:46:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:47:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T11:50:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "65",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:34:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:35:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:36:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:38:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:39:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:41:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:43:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:48:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T11:50:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T11:52:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T11:54:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T11:56:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T11:57:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T12:00:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "67",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:44:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:45:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:46:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:48:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:49:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T11:51:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T11:53:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T11:58:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T12:00:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T12:02:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T12:04:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T12:06:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T12:08:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T12:12:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ritnummer": "69",
+      "bestemming": "P+R WOMMELGEM",
+      "vias": [
+        null
+      ],
+      "doorkomsten": [
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103097",
+          "dienstregelingTijdstip": "2019-03-09T11:54:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103097"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101460",
+          "dienstregelingTijdstip": "2019-03-09T11:55:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101460"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101235",
+          "dienstregelingTijdstip": "2019-03-09T11:56:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101235"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101565",
+          "dienstregelingTijdstip": "2019-03-09T11:58:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101565"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "102500",
+          "dienstregelingTijdstip": "2019-03-09T11:59:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/102500"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104355",
+          "dienstregelingTijdstip": "2019-03-09T12:01:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104355"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104075",
+          "dienstregelingTijdstip": "2019-03-09T12:03:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104075"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103397",
+          "dienstregelingTijdstip": "2019-03-09T12:08:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103397"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103112",
+          "dienstregelingTijdstip": "2019-03-09T12:10:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103112"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "104340",
+          "dienstregelingTijdstip": "2019-03-09T12:12:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/104340"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103744",
+          "dienstregelingTijdstip": "2019-03-09T12:14:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103744"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "101845",
+          "dienstregelingTijdstip": "2019-03-09T12:16:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/101845"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103049",
+          "dienstregelingTijdstip": "2019-03-09T12:18:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103049"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        },
+        {
+          "bestemming": "P+R WOMMELGEM",
+          "haltenummer": "103107",
+          "dienstregelingTijdstip": "2019-03-09T12:22:00",
+          "links": [
+            {
+              "rel": "halte",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/haltes/1/103107"
+            },
+            {
+              "rel": "lijnrichting",
+              "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "url": "https://api.delijn.be/DLKernOpenData/v1/beta/lijnen/1/8/lijnrichtingen/HEEN/real-time"
+    }
+  ],
+  "doorkomstNotas": [],
+  "ritNotas": [],
+  "omleidingen": []
+}
